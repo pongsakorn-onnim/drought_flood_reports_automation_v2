@@ -1,0 +1,45 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# --- Virtual env ---
+.venv/
+venv/
+ENV/
+env/
+
+# --- OS / IDE ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Logs ---
+*.log
+
+# --- Outputs / generated artifacts ---
+output/
+
+# --- PowerPoint temporary / lock files ---
+~$*.pptx
+
+# --- Inspection / dev artifacts ---
+inspection_pages/
+
+# ignore all pptx
+*.pptx
+# but keep templates
+!templates/*.pptx
+
+# (ถ้าคุณอยากเก็บ template ขึ้น repo ให้ลบบรรทัด *.pptx ออก
+# หรือยกเว้นเฉพาะ template ตามด้านล่าง)
+
+# --- Optional: templates (uncomment if you want to keep templates out of repo) ---
+# templates/
+
+# --- Cache / temp ---
+.cache/
+tmp/
+temp/
