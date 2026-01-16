@@ -2,7 +2,7 @@ from pathlib import Path
 
 from ...core.ppt_engine import PptEngine
 from ...core.data_loader import DataLoader
-from .tasks import update_page3_rain_forecast
+from .tasks import update_rain_forecast_part1
 
 
 def generate_flood_report(
@@ -26,7 +26,7 @@ def generate_flood_report(
     engine = PptEngine(template_path)
 
     # PAGE 3: Rain Forecast M1–M3
-    update_page3_rain_forecast(
+    update_rain_forecast_part1(
         engine=engine,
         config=config,
         year=year,

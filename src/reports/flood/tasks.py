@@ -6,7 +6,7 @@ from ...core.image_handler import ImageHandler
 from ...core.text_handler import get_next_3_months
 
 
-def update_page3_rain_forecast(
+def update_rain_forecast_part1(
     engine: PptEngine,
     config: dict,
     year: int,
