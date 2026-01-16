@@ -92,6 +92,46 @@ class PptEngine:
         raise ShapeNotFoundError(
             f"Shape '{shape_name}' not found on slide_id={slide.slide_id}"
         )
+        
+    # ------------------------------------------------------------------
+    # Footer handling
+    # ------------------------------------------------------------------
+    def set_text_on_layouts(self, shape_name: str, text: str, preserve_format: bool = True) -> int:
+        """
+        Update a named text shape across ALL slide layouts in ALL slide masters.
+        Returns number of updated shapes.
+        """
+        updated = 0
+        for master in self.prs.slide_masters:
+            for layout in master.slide_layouts:
+                for shape in layout.shapes:
+                    if shape.name != shape_name:
+                        continue
+                    # reuse same implementation style as set_text(), but on a layout shape
+                    self._set_text_on_shape(shape, text, preserve_format=preserve_format)
+                    updated += 1
+        if updated == 0:
+            raise ShapeNotFoundError(f"Shape '{shape_name}' not found on any slide layout.")
+        return updated
+    
+    
+    def _set_text_on_shape(self, shape, text: str, preserve_format: bool = True) -> None:
+        if not shape.has_text_frame:
+            raise ValueError(f"Shape '{shape.name}' has no text frame")
+
+        tf = shape.text_frame
+        if not preserve_format:
+            tf.text = text
+            return
+
+        # preserve-format: update last run if exists, else fallback to tf.text
+        if tf.paragraphs and tf.paragraphs[0].runs:
+            p = tf.paragraphs[0]
+            run = p.runs[-1]
+            run.text = text
+        else:
+            tf.text = text
+
 
     # ------------------------------------------------------------------
     # Text handling

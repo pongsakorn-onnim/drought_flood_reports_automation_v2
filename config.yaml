@@ -12,14 +12,15 @@ flood_report:
     # -------------------------
     cover:
       slide_key: "flood_cover"
-      slide_index: 0          # fallback ชั่วคราว (ลบได้ในอนาคต)
       title_shape: "Txt_Title"
+      report_period_shape: "Txt_Report_Period"
+      issue_date_shape: "Txt_Issue_Date"
 
     # -------------------------
     # หน้า 3: ฝนคาดการณ์ M1–M3 (lead 0–2)
     # -------------------------
     rain_forecast_part1:
-      slide_key: "flood_rain_fcst_m1_m3"
+      slide_key: "flood_rain_fcst_lead0_lead2"
       title_shape: "Txt_Title"
       labels:
         lead0: "Lbl_Month_Lead0"
@@ -34,7 +35,7 @@ flood_report:
     # หน้า 4: ฝนคาดการณ์ M4–M6 (lead 3–5)
     # -------------------------
     rain_forecast_part2:
-      slide_key: "flood_rain_fcst_m4_m6"
+      slide_key: "flood_rain_fcst_lead3_lead5"
       title_shape: "Txt_Title"
       labels:
         lead3: "Lbl_Month_Lead3"
@@ -49,7 +50,7 @@ flood_report:
     # หน้า 5: แผนที่เสี่ยงน้ำท่วม (M1–M6)
     # -------------------------
     risk_forecast:
-      slide_key: "flood_risk_fcst_m1_m6"
+      slide_key: "flood_risk_fcst_lead0_lead5"
       title_shape: "Txt_Title"
       images:
         lead0: "Img_FloodRiskFcst_Lead0"

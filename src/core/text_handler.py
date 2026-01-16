@@ -41,3 +41,30 @@ def get_months_for_leads(start_year: int, start_month: int, leads: list[int]):
     max_lead = max(leads)
     all_months = get_next_months(start_year, start_month, max_lead + 1)
     return [all_months[l] for l in leads]
+
+
+def format_month_range(months: list[dict]) -> str:
+    """
+    Standard month-range style for ALL slides:
+    uses en dash with spaces: ' – '
+
+    Same-year example: "มกราคม – มิถุนายน 2569"
+    Cross-year example: "ธันวาคม 2568 – มิถุนายน 2569"
+    """
+    if not months:
+        return ""
+
+    start = months[0]
+    end = months[-1]
+    sep = " – "
+
+    # Use buddhist_year for comparison because that's what we render
+    if start["buddhist_year"] == end["buddhist_year"]:
+        return f"{start['thai_name']}{sep}{end['thai_name']} {start['buddhist_year']}"
+
+    return (
+        f"{start['thai_name']} {start['buddhist_year']}"
+        f"{sep}"
+        f"{end['thai_name']} {end['buddhist_year']}"
+    )
+
