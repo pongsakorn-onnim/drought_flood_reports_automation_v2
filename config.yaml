@@ -22,13 +22,13 @@ flood_report:
       slide_key: "flood_rain_fcst_m1_m3"
       title_shape: "Txt_Title"
       labels:
-        m1: "Lbl_Month_M1"
-        m2: "Lbl_Month_M2"
-        m3: "Lbl_Month_M3"
+        lead0: "Lbl_Month_Lead0"
+        lead1: "Lbl_Month_Lead1"
+        lead2: "Lbl_Month_Lead2"
       images:
-        m1: "Img_FloodRainFcst_M1"
-        m2: "Img_FloodRainFcst_M2"
-        m3: "Img_FloodRainFcst_M3"
+        lead0: "Img_FloodRainFcst_Lead0"
+        lead1: "Img_FloodRainFcst_Lead1"
+        lead2: "Img_FloodRainFcst_Lead2"
 
     # -------------------------
     # หน้า 4: ฝนคาดการณ์ M4–M6 (lead 3–5)
@@ -37,13 +37,13 @@ flood_report:
       slide_key: "flood_rain_fcst_m4_m6"
       title_shape: "Txt_Title"
       labels:
-        m4: "Lbl_Month_M4"
-        m5: "Lbl_Month_M5"
-        m6: "Lbl_Month_M6"
+        lead3: "Lbl_Month_Lead3"
+        lead4: "Lbl_Month_Lead4"
+        lead5: "Lbl_Month_Lead5"
       images:
-        m4: "Img_FloodRainFcst_M4"
-        m5: "Img_FloodRainFcst_M5"
-        m6: "Img_FloodRainFcst_M6"
+        lead3: "Img_FloodRainFcst_Lead3"
+        lead4: "Img_FloodRainFcst_Lead4"
+        lead5: "Img_FloodRainFcst_Lead5"
 
     # -------------------------
     # หน้า 5: แผนที่เสี่ยงน้ำท่วม (M1–M6)
@@ -51,23 +51,16 @@ flood_report:
     risk_forecast:
       slide_key: "flood_risk_fcst_m1_m6"
       title_shape: "Txt_Title"
-      labels:
-        m1: "Lbl_Month_M1"
-        m2: "Lbl_Month_M2"
-        m3: "Lbl_Month_M3"
-        m4: "Lbl_Month_M4"
-        m5: "Lbl_Month_M5"
-        m6: "Lbl_Month_M6"
       images:
-        m1: "Img_FloodRiskFcst_M1"
-        m2: "Img_FloodRiskFcst_M2"
-        m3: "Img_FloodRiskFcst_M3"
-        m4: "Img_FloodRiskFcst_M4"
-        m5: "Img_FloodRiskFcst_M5"
-        m6: "Img_FloodRiskFcst_M6"
+        lead0: "Img_FloodRiskFcst_Lead0"
+        lead1: "Img_FloodRiskFcst_Lead1"
+        lead2: "Img_FloodRiskFcst_Lead2"
+        lead3: "Img_FloodRiskFcst_Lead3"
+        lead4: "Img_FloodRiskFcst_Lead4"
+        lead5: "Img_FloodRiskFcst_Lead5"
 
   # --- URL Patterns ---
   data_sources:
     base_url: "https://tiservice.hii.or.th/hds/data/rain_map/flood_drought_map/flood_map"
-    rain_pattern: "{base_url}/{yyyymm}/{yyyymm}_step1_m{lead}.png"
-    risk_pattern: "{base_url}/{yyyymm}/{yyyymm}_step5_m{lead}.png"
+    rain_pattern: "{base_url}/{yyyymm}/{yyyymm}_step1_m{m}.png"
+    risk_pattern: "{base_url}/{yyyymm}/{yyyymm}_step5_m{m}.png"

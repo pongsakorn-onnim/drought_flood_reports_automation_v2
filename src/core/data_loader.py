@@ -37,9 +37,13 @@ class DataLoader:
         raw_pattern = source_config[pattern_key]
         base_url = source_config.get('base_url', '')
 
-        # Step 1: Inject base_url if placeholder exists
-        # ใช้ .replace ตรงๆ เพื่อความง่ายและชัดเจน
+        # Step 1: Inject base_url
         url_template = raw_pattern.replace("{base_url}", base_url)
+        
+        # Step 1.5: Convert lead (0-based) -> m (1-based)
+        # HII server uses m1..m6, but our code uses lead0..lead5
+        if pattern_key in {"rain_pattern", "risk_pattern"} and "lead" in kwargs and "m" not in kwargs:
+            kwargs["m"] = int(kwargs["lead"]) + 1
 
         # Step 2: Inject dynamic values (yyyymm, lead, etc.)
         try:
@@ -62,7 +66,7 @@ if __name__ == "__main__":
             flood_sources, 
             'rain_pattern', 
             yyyymm='202601', 
-            lead=1
+            lead=0
         )
         print(f"Generated URL: {test_url}")
         
