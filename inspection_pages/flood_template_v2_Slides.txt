@@ -1,0 +1,3614 @@
+INSPECTING SLIDES...
+
+Presentation has 8 slides
+
+====================================================================================================
+PAGE 1 ANALYSIS
+====================================================================================================
+PAGE 1 COMPLETE ANALYSIS:
+   Total shapes: 5
+   Slide ID: 258
+
+SHAPE 1: 'TextBox 6' (Text Box)
+   Position: (0.509", 0.572")
+   Size: 4.49" x 1.72" 
+   Area: 7.71 sq inches
+   Z-Order: 0 (0 = back, higher = front)
+   Rotation: 0.0°
+   Fill Type: FillFormat
+   Fill Color: Not accessible (TypeError)
+   Line Color: ColorFormat
+   Line Width: 0
+   Text Content: "คาดการณ์พื้นที่เสี่ยงอุทกภัย"
+       TEXT FRAME ANALYSIS:
+           Auto Size: SHAPE_TO_FIT_TEXT (1)
+           Margins: Left=91440, Right=91440, Top=45720, Bottom=45720
+           Vertical Anchor: None
+           Word Wrap: True
+           Paragraphs: 1
+           PARAGRAPH 1:
+               Alignment: Center
+               Space After: None
+               Space Before: None
+               Line Spacing: None
+               Level: 0
+               Runs: 2
+               RUN 1: "คาดการณ์"
+                   Font Name: DB Heavent
+                   Font Size: 609600
+                   Bold: True
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Accent 1
+                   Brightness: 0.8
+                   Language ID: THAI (1054)
+               RUN 2: "พื้นที่เสี่ยงอุทกภัย"
+                   Font Name: DB Heavent
+                   Font Size: 609600
+                   Bold: True
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Accent 1
+                   Brightness: 0.8
+                   Language ID: THAI (1054)
+   ================================================================================
+
+SHAPE 2: 'Picture 7' (Picture)
+   Position: (1.523", 2.288")
+   Size: 2.65" x 0.03" 
+   Area: 0.08 sq inches
+   Z-Order: 1 (0 = back, higher = front)
+   Rotation: 0.0°
+   Line Color: ColorFormat
+   Line Width: 0
+       PICTURE ANALYSIS:
+           Image Type: Image
+           Image Size: (352, 4)
+           Image Format: image/x-wmf
+           Filename: image.emf
+           Crop - Left: 0.0, Right: 0.0, Top: 0.0, Bottom: 0.0
+   ================================================================================
+
+SHAPE 3: 'Txt_Report_Period' (Auto Shape)
+   Position: (4.349", 3.169")
+   Size: 4.23" x 0.50" 
+   Area: 2.14 sq inches
+   Z-Order: 2 (0 = back, higher = front)
+   Rotation: 0.0°
+   Fill Type: FillFormat
+   Fill Color: Not accessible (TypeError)
+   Line Color: ColorFormat
+   Line Width: 0
+   Text Content: "มกราคม – มิถุนายน 2569"
+       TEXT FRAME ANALYSIS:
+           Auto Size: SHAPE_TO_FIT_TEXT (1)
+           Margins: Left=91440, Right=91440, Top=45720, Bottom=45720
+           Vertical Anchor: TOP (1)
+           Word Wrap: True
+           Paragraphs: 1
+           PARAGRAPH 1:
+               Alignment: Center
+               Space After: None
+               Space Before: None
+               Line Spacing: 1.0
+               Level: 0
+               Runs: 5
+               RUN 1: "มกราคม "
+                   Font Name: DB Heavent Thin
+                   Font Size: 304800
+                   Bold: True
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Unknown (NOT_THEME_COLOR (0))
+                   Brightness: 0
+                   Language ID: THAI (1054)
+               RUN 2: "– "
+                   Font Name: DB Heavent Thin
+                   Font Size: 304800
+                   Bold: True
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Unknown (NOT_THEME_COLOR (0))
+                   Brightness: 0
+                   Language ID: ENGLISH_US (1033)
+               RUN 3: "มิถุนายน"
+                   Font Name: DB Heavent Thin
+                   Font Size: 304800
+                   Bold: True
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Unknown (NOT_THEME_COLOR (0))
+                   Brightness: 0
+                   Language ID: THAI (1054)
+               RUN 4: " "
+                   Font Name: DB Heavent Thin
+                   Font Size: 304800
+                   Bold: True
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Unknown (NOT_THEME_COLOR (0))
+                   Brightness: 0
+                   Language ID: ENGLISH_US (1033)
+               RUN 5: "2569"
+                   Font Name: DB Heavent Thin
+                   Font Size: 304800
+                   Bold: True
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Unknown (NOT_THEME_COLOR (0))
+                   Brightness: 0
+                   Language ID: THAI (1054)
+   ================================================================================
+
+SHAPE 4: 'Rectangle 11' (Auto Shape)
+   Position: (3.960", 3.617")
+   Size: 5.00" x 1.16" 
+   Area: 5.81 sq inches
+   Z-Order: 3 (0 = back, higher = front)
+   Rotation: 0.0°
+   Fill Type: FillFormat
+   Fill Color: Not accessible (TypeError)
+   Line Color: ColorFormat
+   Line Width: 0
+   Text Content: "โดย สถาบันสารสนเทศทรัพยากรน้ำ (องค์การมหาชน)
+กระทรวงการอุดมศึกษา วิทยาศาสตร์ วิจัยและนวัตกรรม
+1 มกราคม 2569"
+       TEXT FRAME ANALYSIS:
+           Auto Size: SHAPE_TO_FIT_TEXT (1)
+           Margins: Left=91440, Right=91440, Top=45720, Bottom=45720
+           Vertical Anchor: None
+           Word Wrap: None
+           Paragraphs: 3
+           PARAGRAPH 1:
+               Alignment: Center
+               Space After: None
+               Space Before: None
+               Line Spacing: 1.0
+               Level: 0
+               Runs: 1
+               RUN 1: "โดย สถาบันสารสนเทศทรัพยากรน้ำ (องค์การมหาชน)"
+                   Font Name: DB Heavent Thin
+                   Font Size: 266700
+                   Bold: None
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Unknown (NOT_THEME_COLOR (0))
+                   Brightness: 0
+                   Language ID: THAI (1054)
+           PARAGRAPH 2:
+               Alignment: Center
+               Space After: None
+               Space Before: None
+               Line Spacing: 1.0
+               Level: 0
+               Runs: 1
+               RUN 1: "กระทรวงการอุดมศึกษา วิทยาศาสตร์ วิจัยและนวัตกรรม"
+                   Font Name: DB Heavent Thin
+                   Font Size: 266700
+                   Bold: None
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Unknown (NOT_THEME_COLOR (0))
+                   Brightness: 0
+                   Language ID: THAI (1054)
+           PARAGRAPH 3:
+               Alignment: Center
+               Space After: None
+               Space Before: None
+               Line Spacing: 1.0
+               Level: 0
+               Runs: 1
+               RUN 1: "1 มกราคม 2569"
+                   Font Name: DB Heavent Thin
+                   Font Size: 266700
+                   Bold: None
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Unknown (NOT_THEME_COLOR (0))
+                   Brightness: 0
+                   Language ID: THAI (1054)
+   ================================================================================
+
+SHAPE 5: 'Group 24' (Group)
+   Position: (4.182", 4.941")
+   Size: 4.86" x 0.57" 
+   Area: 2.76 sq inches
+   Z-Order: 4 (0 = back, higher = front)
+   Rotation: 0.0°
+       GROUP ANALYSIS (Depth 0):
+           Child Shapes: 9
+           CHILD 1: Picture
+               Position: (2.428", 4.934")
+               Size: 0.52" x 0.61" 
+           CHILD 2: Picture
+               Position: (1.176", 4.919")
+               Size: 0.54" x 0.64" 
+           CHILD 3: Picture
+               Position: (3.576", 4.934")
+               Size: 0.62" x 0.61" 
+           CHILD 4: Picture
+               Position: (4.199", 4.905")
+               Size: 0.70" x 0.67" 
+           CHILD 5: Picture
+               Position: (2.954", 4.934")
+               Size: 0.62" x 0.61" 
+           CHILD 6: Picture
+               Position: (0.739", 4.934")
+               Size: 0.44" x 0.61" 
+           CHILD 7: Picture
+               Position: (4.897", 4.934")
+               Size: 1.09" x 0.61" 
+           CHILD 8: Picture
+               Position: (0.100", 4.942")
+               Size: 0.62" x 0.61" 
+           CHILD 9: Picture
+               Position: (1.721", 4.905")
+               Size: 0.71" x 0.69" 
+   ================================================================================
+
+SHAPE TYPE SUMMARY:
+   Auto Shape: 2
+   Group: 1
+   Picture: 1
+   Text Box: 1
+
+TEXT SUMMARY:
+   Text shapes: 3
+   1. "คาดการณ์พื้นที่เสี่ยงอุทกภัย"
+   2. "มกราคม – มิถุนายน 2569"
+   3. "โดย สถาบันสารสนเทศทรัพยากรน้ำ (องค์การมหาชน)
+กระทร..."
+
+IMAGE SUMMARY:
+   Image shapes: 1
+   1. Size: 2.65" x 0.03" at (1.52", 2.29)
+
+GROUP SUMMARY:
+   Group shapes: 1
+   1. Size: 4.86" x 0.57" at (4.18", 4.94") - 9 children
+
+TABLE SUMMARY:
+   Table shapes: 0
+
+CHART SUMMARY:
+   Chart shapes: 0
+
+====================================================================================================
+PAGE 2 ANALYSIS
+====================================================================================================
+PAGE 2 COMPLETE ANALYSIS:
+   Total shapes: 12
+   Slide ID: 755
+
+SHAPE 1: 'Rectangle 5' (Auto Shape)
+   Position: (0.766", 0.072")
+   Size: 9.23" x 0.57" 
+   Area: 5.28 sq inches
+   Z-Order: 0 (0 = back, higher = front)
+   Rotation: 0.0°
+   Fill Type: FillFormat
+   Fill Color: Not accessible (TypeError)
+   Line Color: ColorFormat
+   Line Width: 0
+   Text Content: "หลักการวิเคราะห์"
+       TEXT FRAME ANALYSIS:
+           Auto Size: SHAPE_TO_FIT_TEXT (1)
+           Margins: Left=91440, Right=91440, Top=45720, Bottom=45720
+           Vertical Anchor: None
+           Word Wrap: True
+           Paragraphs: 1
+           PARAGRAPH 1:
+               Alignment: Unknown (None)
+               Space After: None
+               Space Before: None
+               Line Spacing: None
+               Level: 0
+               Runs: 1
+               RUN 1: "หลักการวิเคราะห์"
+                   Font Name: DB Heavent
+                   Font Size: 355600
+                   Bold: True
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Unknown (NOT_THEME_COLOR (0))
+                   Brightness: 0
+                   Language ID: THAI (1054)
+   ================================================================================
+
+SHAPE 2: 'Plus 28' (Auto Shape)
+   Position: (4.403", 2.509")
+   Size: 0.28" x 0.26" 
+   Area: 0.07 sq inches
+   Z-Order: 1 (0 = back, higher = front)
+   Rotation: 0.0°
+   Fill Type: FillFormat
+   Fill Color: Not accessible (TypeError)
+   Line Color: ColorFormat
+   Line Width: 0
+   ================================================================================
+
+SHAPE 3: 'Rectangle 21' (Auto Shape)
+   Position: (7.631", 0.572")
+   Size: 2.12" x 0.40" 
+   Area: 0.86 sq inches
+   Z-Order: 2 (0 = back, higher = front)
+   Rotation: 0.0°
+   Fill Type: FillFormat
+   Fill Color: Not accessible (TypeError)
+   Line Color: ColorFormat
+   Line Width: 0
+   Text Content: "คาดการณ์พื้นที่เสี่ยงน้ำท่วม"
+       TEXT FRAME ANALYSIS:
+           Auto Size: SHAPE_TO_FIT_TEXT (1)
+           Margins: Left=91440, Right=91440, Top=45720, Bottom=45720
+           Vertical Anchor: None
+           Word Wrap: False
+           Paragraphs: 1
+           PARAGRAPH 1:
+               Alignment: Center
+               Space After: None
+               Space Before: None
+               Line Spacing: None
+               Level: 0
+               Runs: 1
+               RUN 1: "คาดการณ์พื้นที่เสี่ยงน้ำท่วม"
+                   Font Name: DB Heavent
+                   Font Size: 228600
+                   Bold: True
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Language ID: THAI (1054)
+   ================================================================================
+
+SHAPE 4: 'Rectangle 9' (Auto Shape)
+   Position: (0.546", 0.572")
+   Size: 3.39" x 0.61" 
+   Area: 2.06 sq inches
+   Z-Order: 3 (0 = back, higher = front)
+   Rotation: 0.0°
+   Fill Type: FillFormat
+   Fill Color: Not accessible (TypeError)
+   Line Color: ColorFormat
+   Line Width: 0
+   Text Content: "ฝนคาดการณ์รายเดือน
+จากระบบ ONEMAP"
+       TEXT FRAME ANALYSIS:
+           Auto Size: SHAPE_TO_FIT_TEXT (1)
+           Margins: Left=91440, Right=91440, Top=45720, Bottom=45720
+           Vertical Anchor: None
+           Word Wrap: True
+           Paragraphs: 2
+           PARAGRAPH 1:
+               Alignment: Center
+               Space After: None
+               Space Before: None
+               Line Spacing: None
+               Level: 0
+               Runs: 1
+               RUN 1: "ฝนคาดการณ์รายเดือน"
+                   Font Name: DB Heavent
+                   Font Size: 228600
+                   Bold: True
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Language ID: THAI (1054)
+           PARAGRAPH 2:
+               Alignment: Center
+               Space After: None
+               Space Before: None
+               Line Spacing: None
+               Level: 0
+               Runs: 2
+               RUN 1: "จากระบบ"
+                   Font Name: DB Heavent
+                   Font Size: 139700
+                   Bold: None
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Language ID: THAI (1054)
+               RUN 2: " ONEMAP"
+                   Font Name: DB Heavent
+                   Font Size: 139700
+                   Bold: None
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Language ID: ENGLISH_US (1033)
+   ================================================================================
+
+SHAPE 5: 'Group 16' (Group)
+   Position: (0.102", 1.071")
+   Size: 4.26" x 3.36" 
+   Area: 14.32 sq inches
+   Z-Order: 4 (0 = back, higher = front)
+   Rotation: 0.0°
+       GROUP ANALYSIS (Depth 0):
+           Child Shapes: 4
+           CHILD 1: Picture
+               Position: (0.083", 1.303")
+               Size: 2.13" x 3.14" 
+           CHILD 2: Picture
+               Position: (2.214", 1.291")
+               Size: 2.13" x 3.14" 
+           CHILD 3: Auto Shape
+               Position: (0.294", 4.348")
+               Size: 1.97" x 0.30" 
+               Text Content: "สูงกว่าค่าปกติร้อยละ 10 และ 20"
+           CHILD 4: Auto Shape
+               Position: (2.291", 4.334")
+               Size: 1.99" x 0.30" 
+               Text Content: "สูงกว่าเกณฑ์ฝนมาก"
+   ================================================================================
+
+SHAPE 6: 'Rectangle 3' (Auto Shape)
+   Position: (4.681", 0.572")
+   Size: 2.33" x 0.61" 
+   Area: 1.41 sq inches
+   Z-Order: 5 (0 = back, higher = front)
+   Rotation: 0.0°
+   Fill Type: FillFormat
+   Fill Color: Not accessible (TypeError)
+   Line Color: ColorFormat
+   Line Width: 0
+   Text Content: "แผนที่เสี่ยงอุทกภัยรายเดือนจัดทำโดยหน่วยงานต่างๆ"
+       TEXT FRAME ANALYSIS:
+           Auto Size: SHAPE_TO_FIT_TEXT (1)
+           Margins: Left=91440, Right=91440, Top=45720, Bottom=45720
+           Vertical Anchor: None
+           Word Wrap: True
+           Paragraphs: 1
+           PARAGRAPH 1:
+               Alignment: Center
+               Space After: None
+               Space Before: None
+               Line Spacing: None
+               Level: 0
+               Runs: 2
+               RUN 1: "แผนที่เสี่ยงอุทกภัยรายเดือน"
+                   Font Name: DB Heavent
+                   Font Size: 228600
+                   Bold: True
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Language ID: THAI (1054)
+               RUN 2: "จัดทำโดยหน่วยงานต่างๆ"
+                   Font Name: DB Heavent
+                   Font Size: 139700
+                   Bold: None
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Language ID: THAI (1054)
+   ================================================================================
+
+SHAPE 7: 'Group 36' (Group)
+   Position: (4.900", 4.151")
+   Size: 2.04" x 0.30" 
+   Area: 0.61 sq inches
+   Z-Order: 6 (0 = back, higher = front)
+   Rotation: 0.0°
+       GROUP ANALYSIS (Depth 0):
+           Child Shapes: 7
+           CHILD 1: Picture
+               Position: (1.289", 4.919")
+               Size: 0.54" x 0.64" 
+           CHILD 2: Picture
+               Position: (3.043", 4.950")
+               Size: 0.62" x 0.61" 
+           CHILD 3: Picture
+               Position: (3.616", 4.920")
+               Size: 0.70" x 0.67" 
+           CHILD 4: Picture
+               Position: (2.433", 4.950")
+               Size: 0.62" x 0.61" 
+           CHILD 5: Picture
+               Position: (0.795", 4.934")
+               Size: 0.44" x 0.61" 
+           CHILD 6: Picture
+               Position: (4.279", 4.950")
+               Size: 1.09" x 0.61" 
+           CHILD 7: Picture
+               Position: (1.888", 4.943")
+               Size: 0.61" x 0.59" 
+   ================================================================================
+
+SHAPE 8: 'Group 2' (Group)
+   Position: (4.742", 1.083")
+   Size: 2.23" x 3.08" 
+   Area: 6.88 sq inches
+   Z-Order: 7 (0 = back, higher = front)
+   Rotation: 0.0°
+       GROUP ANALYSIS (Depth 0):
+           Child Shapes: 4
+           CHILD 1: Picture
+               Position: (0.188", 1.327")
+               Size: 1.12" x 1.58" 
+           CHILD 2: Picture
+               Position: (0.190", 2.911")
+               Size: 1.10" x 1.56" 
+           CHILD 3: Picture
+               Position: (1.297", 1.331")
+               Size: 1.12" x 1.58" 
+           CHILD 4: Group
+               Position: (1.293", 2.911")
+               Size: 1.12" x 1.56" 
+       GROUP ANALYSIS (Depth 1):
+           Child Shapes: 2
+           CHILD 1: Picture
+               Position: (1.376", 2.949")
+               Size: 1.04" x 1.47" 
+           CHILD 2: Picture
+               Position: (1.526", 4.329")
+               Size: 0.06" x 0.06" 
+   ================================================================================
+
+SHAPE 9: 'Right Arrow 7' (Auto Shape)
+   Position: (7.142", 2.509")
+   Size: 0.27" x 0.24" 
+   Area: 0.07 sq inches
+   Z-Order: 8 (0 = back, higher = front)
+   Rotation: 0.0°
+   Fill Type: FillFormat
+   Fill Color: Not accessible (TypeError)
+   Line Color: ColorFormat
+   Line Width: 0
+   ================================================================================
+
+SHAPE 10: 'Picture 10' (Picture)
+   Position: (7.546", 1.071")
+   Size: 2.22" x 3.14" 
+   Area: 6.98 sq inches
+   Z-Order: 9 (0 = back, higher = front)
+   Rotation: 0.0°
+   Line Color: ColorFormat
+   Line Width: 0
+       PICTURE ANALYSIS:
+           Image Type: Image
+           Image Size: (794, 1123)
+           Image Format: image/png
+           Filename: image.png
+           Crop - Left: 0.0, Right: 0.0, Top: 0.0, Bottom: 0.0
+   ================================================================================
+
+SHAPE 11: 'Rectangle 4' (Auto Shape)
+   Position: (9.182", 3.605")
+   Size: 0.05" x 0.07" 
+   Area: 0.00 sq inches
+   Z-Order: 10 (0 = back, higher = front)
+   Rotation: 0.0°
+   Fill Type: FillFormat
+   Fill Color: ColorFormat
+   Line Color: ColorFormat
+   Line Width: 0
+   ================================================================================
+
+SHAPE 12: 'TextBox 6' (Text Box)
+   Position: (0.092", 4.479")
+   Size: 9.88" x 0.77" 
+   Area: 7.65 sq inches
+   Z-Order: 11 (0 = back, higher = front)
+   Rotation: 0.0°
+   Fill Type: FillFormat
+   Fill Color: Not accessible (TypeError)
+   Line Color: ColorFormat
+   Line Width: 0
+   Text Content: "การวิเคราะห์: ใช้ปริมาณฝนสะสม  2 เดือน (ย้อนหลัง 1 เดือนและเดือนคาดการณ์) จากระบบ Onemap ที่มีปริมาณฝนสูงกว่าค่าปกติร้อยละ 10 20 และเกณฑ์ฝนมากรายภาค ร่วมกับข้อมูลพื้นที่น้ำท่วมซ้ำซากในอดีต โดยคัดกรองเฉพาะตำบลที่มีพื้นที่เสี่ยงครอบคลุมมากกว่า 1 ใน 3 ของพื้นที่ทั้งหมด แล้วจำแนกเป็นพื้นที่เสี่ยงน้ำท่วมหรือน้ำท่วมฉับพลันตามศักยภาพพื้นที่"
+       TEXT FRAME ANALYSIS:
+           Auto Size: SHAPE_TO_FIT_TEXT (1)
+           Margins: Left=91440, Right=91440, Top=45720, Bottom=45720
+           Vertical Anchor: TOP (1)
+           Word Wrap: True
+           Paragraphs: 2
+           PARAGRAPH 1:
+               Alignment: Unknown (None)
+               Space After: None
+               Space Before: None
+               Line Spacing: None
+               Level: 0
+               Runs: 4
+               RUN 1: "การวิเคราะห์"
+                   Font Name: DB Heavent
+                   Font Size: 177800
+                   Bold: True
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Language ID: THAI (1054)
+               RUN 2: ":"
+                   Font Name: DB Heavent
+                   Font Size: 177800
+                   Bold: True
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Language ID: ENGLISH_US (1033)
+               RUN 3: " "
+                   Font Name: DB Heavent
+                   Font Size: 177800
+                   Bold: True
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Language ID: THAI (1054)
+               RUN 4: "ใช้ปริมาณฝนสะสม  2 เดือน (ย้อนหลัง 1 เดือนและเดือนคาดการณ์) จากระบบ Onemap ที่มีปริมาณฝนสูงกว่าค่าปกติร้อยละ 10 20 และเกณฑ์ฝนมากรายภาค ร่วมกับข้อมูลพื้นที่น้ำท่วมซ้ำซากในอดีต โดยคัดกรองเฉพาะตำบลที่มีพื้นที่เสี่ยงครอบคลุมมากกว่า 1 ใน 3 ของพื้นที่ทั้งหมด แล้วจำแนกเป็นพื้นที่เสี่ยงน้ำท่วมหรือน้ำท่วมฉับพลันตามศักยภาพพื้นที่"
+                   Font Name: DB Heavent
+                   Font Size: 177800
+                   Bold: None
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Language ID: THAI (1054)
+           PARAGRAPH 2:
+               Alignment: Unknown (None)
+               Space After: None
+               Space Before: None
+               Line Spacing: None
+               Level: 0
+               Runs: 0
+   ================================================================================
+
+SHAPE TYPE SUMMARY:
+   Auto Shape: 7
+   Group: 3
+   Picture: 1
+   Text Box: 1
+
+TEXT SUMMARY:
+   Text shapes: 5
+   1. "หลักการวิเคราะห์"
+   2. "คาดการณ์พื้นที่เสี่ยงน้ำท่วม"
+   3. "ฝนคาดการณ์รายเดือน
+จากระบบ ONEMAP"
+   4. "แผนที่เสี่ยงอุทกภัยรายเดือนจัดทำโดยหน่วยงานต่างๆ"
+   5. "การวิเคราะห์: ใช้ปริมาณฝนสะสม  2 เดือน (ย้อนหลัง 1..."
+
+IMAGE SUMMARY:
+   Image shapes: 1
+   1. Size: 2.22" x 3.14" at (7.55", 1.07)
+
+GROUP SUMMARY:
+   Group shapes: 3
+   1. Size: 4.26" x 3.36" at (0.10", 1.07") - 4 children
+   2. Size: 2.04" x 0.30" at (4.90", 4.15") - 7 children
+   3. Size: 2.23" x 3.08" at (4.74", 1.08") - 4 children
+
+TABLE SUMMARY:
+   Table shapes: 0
+
+CHART SUMMARY:
+   Chart shapes: 0
+
+====================================================================================================
+PAGE 3 ANALYSIS
+====================================================================================================
+PAGE 3 COMPLETE ANALYSIS:
+   Total shapes: 8
+   Slide ID: 758
+
+SHAPE 1: 'Txt_Title' (Auto Shape)
+   Position: (0.672", 0.082")
+   Size: 9.23" x 0.57" 
+   Area: 5.28 sq inches
+   Z-Order: 0 (0 = back, higher = front)
+   Rotation: 0.0°
+   Fill Type: FillFormat
+   Fill Color: Not accessible (TypeError)
+   Line Color: ColorFormat
+   Line Width: 0
+   Text Content: "คาดการณ์ฝนเดือนมกราคม-มีนาคม 2569 จาก ONEMAP"
+       TEXT FRAME ANALYSIS:
+           Auto Size: SHAPE_TO_FIT_TEXT (1)
+           Margins: Left=91440, Right=91440, Top=45720, Bottom=45720
+           Vertical Anchor: TOP (1)
+           Word Wrap: True
+           Paragraphs: 1
+           PARAGRAPH 1:
+               Alignment: Unknown (None)
+               Space After: None
+               Space Before: None
+               Line Spacing: None
+               Level: 0
+               Runs: 6
+               RUN 1: "คาดการณ์ฝนเดือนมกราคม"
+                   Font Name: DB Heavent
+                   Font Size: 355600
+                   Bold: True
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Unknown (NOT_THEME_COLOR (0))
+                   Brightness: 0
+                   Language ID: THAI (1054)
+               RUN 2: "-"
+                   Font Name: DB Heavent
+                   Font Size: 355600
+                   Bold: True
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Unknown (NOT_THEME_COLOR (0))
+                   Brightness: 0
+                   Language ID: ENGLISH_US (1033)
+               RUN 3: "มีนาคม"
+                   Font Name: DB Heavent
+                   Font Size: 355600
+                   Bold: True
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Unknown (NOT_THEME_COLOR (0))
+                   Brightness: 0
+                   Language ID: THAI (1054)
+               RUN 4: " "
+                   Font Name: DB Heavent
+                   Font Size: 355600
+                   Bold: True
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Unknown (NOT_THEME_COLOR (0))
+                   Brightness: 0
+                   Language ID: ENGLISH_US (1033)
+               RUN 5: "2569 จาก"
+                   Font Name: DB Heavent
+                   Font Size: 355600
+                   Bold: True
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Unknown (NOT_THEME_COLOR (0))
+                   Brightness: 0
+                   Language ID: THAI (1054)
+               RUN 6: " ONEMAP"
+                   Font Name: DB Heavent
+                   Font Size: 355600
+                   Bold: True
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Unknown (NOT_THEME_COLOR (0))
+                   Brightness: 0
+                   Language ID: ENGLISH_US (1033)
+   ================================================================================
+
+SHAPE 2: 'AutoShape 2' (Auto Shape)
+   Position: (0.170", -0.158")
+   Size: 0.33" x 0.33" 
+   Area: 0.11 sq inches
+   Z-Order: 1 (0 = back, higher = front)
+   Rotation: 0.0°
+   Fill Type: FillFormat
+   Fill Color: Not accessible (TypeError)
+   Line Color: ColorFormat
+   Line Width: 0
+   ================================================================================
+
+SHAPE 3: 'Img_FloodRainFcst_M3' (Picture)
+   Position: (6.660", 0.679")
+   Size: 2.23" x 4.08" 
+   Area: 9.08 sq inches
+   Z-Order: 2 (0 = back, higher = front)
+   Rotation: 0.0°
+   Line Color: ColorFormat
+   Line Width: 0
+       PICTURE ANALYSIS:
+           Image Type: Image
+           Image Size: (655, 1200)
+           Image Format: image/png
+           Filename: image.png
+           Crop - Left: 0.0, Right: 0.0, Top: 0.0, Bottom: 0.0
+   ================================================================================
+
+SHAPE 4: 'Img_FloodRainFcst_M1' (Picture)
+   Position: (0.983", 0.679")
+   Size: 2.23" x 4.08" 
+   Area: 9.08 sq inches
+   Z-Order: 3 (0 = back, higher = front)
+   Rotation: 0.0°
+   Line Color: ColorFormat
+   Line Width: 0
+       PICTURE ANALYSIS:
+           Image Type: Image
+           Image Size: (655, 1200)
+           Image Format: image/png
+           Filename: image.png
+           Crop - Left: 0.0, Right: 0.0, Top: 0.0, Bottom: 0.0
+   ================================================================================
+
+SHAPE 5: 'Img_FloodRainFcst_M2' (Picture)
+   Position: (3.739", 0.679")
+   Size: 2.23" x 4.08" 
+   Area: 9.08 sq inches
+   Z-Order: 4 (0 = back, higher = front)
+   Rotation: 0.0°
+   Line Color: ColorFormat
+   Line Width: 0
+       PICTURE ANALYSIS:
+           Image Type: Image
+           Image Size: (655, 1200)
+           Image Format: image/png
+           Filename: image.png
+           Crop - Left: 0.0, Right: 0.0, Top: 0.0, Bottom: 0.0
+   ================================================================================
+
+SHAPE 6: 'Lbl_Month_M1' (Text Box)
+   Position: (1.022", 4.669")
+   Size: 2.15" x 0.40" 
+   Area: 0.87 sq inches
+   Z-Order: 5 (0 = back, higher = front)
+   Rotation: 0.0°
+   Fill Type: FillFormat
+   Fill Color: Not accessible (TypeError)
+   Line Color: ColorFormat
+   Line Width: 0
+   Text Content: "มกราคม"
+       TEXT FRAME ANALYSIS:
+           Auto Size: SHAPE_TO_FIT_TEXT (1)
+           Margins: Left=91440, Right=91440, Top=45720, Bottom=45720
+           Vertical Anchor: TOP (1)
+           Word Wrap: True
+           Paragraphs: 1
+           PARAGRAPH 1:
+               Alignment: Center
+               Space After: None
+               Space Before: None
+               Line Spacing: None
+               Level: 0
+               Runs: 1
+               RUN 1: "มกราคม"
+                   Font Name: DB Heavent
+                   Font Size: 228600
+                   Bold: None
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Background 2
+                   Brightness: -0.75
+                   Language ID: THAI (1054)
+   ================================================================================
+
+SHAPE 7: 'Lbl_Month_M2' (Text Box)
+   Position: (3.800", 4.669")
+   Size: 2.11" x 0.40" 
+   Area: 0.85 sq inches
+   Z-Order: 6 (0 = back, higher = front)
+   Rotation: 0.0°
+   Fill Type: FillFormat
+   Fill Color: Not accessible (TypeError)
+   Line Color: ColorFormat
+   Line Width: 0
+   Text Content: "กุมภาพันธ์"
+       TEXT FRAME ANALYSIS:
+           Auto Size: SHAPE_TO_FIT_TEXT (1)
+           Margins: Left=91440, Right=91440, Top=45720, Bottom=45720
+           Vertical Anchor: TOP (1)
+           Word Wrap: True
+           Paragraphs: 1
+           PARAGRAPH 1:
+               Alignment: Center
+               Space After: None
+               Space Before: None
+               Line Spacing: None
+               Level: 0
+               Runs: 1
+               RUN 1: "กุมภาพันธ์"
+                   Font Name: DB Heavent
+                   Font Size: 228600
+                   Bold: None
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Background 2
+                   Brightness: -0.75
+                   Language ID: THAI (1054)
+   ================================================================================
+
+SHAPE 8: 'Lbl_Month_M3' (Text Box)
+   Position: (6.721", 4.658")
+   Size: 2.11" x 0.40" 
+   Area: 0.85 sq inches
+   Z-Order: 7 (0 = back, higher = front)
+   Rotation: 0.0°
+   Fill Type: FillFormat
+   Fill Color: Not accessible (TypeError)
+   Line Color: ColorFormat
+   Line Width: 0
+   Text Content: "มีนาคม"
+       TEXT FRAME ANALYSIS:
+           Auto Size: SHAPE_TO_FIT_TEXT (1)
+           Margins: Left=91440, Right=91440, Top=45720, Bottom=45720
+           Vertical Anchor: TOP (1)
+           Word Wrap: True
+           Paragraphs: 1
+           PARAGRAPH 1:
+               Alignment: Center
+               Space After: None
+               Space Before: None
+               Line Spacing: None
+               Level: 0
+               Runs: 1
+               RUN 1: "มีนาคม"
+                   Font Name: DB Heavent
+                   Font Size: 228600
+                   Bold: None
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Background 2
+                   Brightness: -0.75
+                   Language ID: THAI (1054)
+   ================================================================================
+
+SHAPE TYPE SUMMARY:
+   Auto Shape: 2
+   Picture: 3
+   Text Box: 3
+
+TEXT SUMMARY:
+   Text shapes: 4
+   1. "คาดการณ์ฝนเดือนมกราคม-มีนาคม 2569 จาก ONEMAP"
+   2. "มกราคม"
+   3. "กุมภาพันธ์"
+   4. "มีนาคม"
+
+IMAGE SUMMARY:
+   Image shapes: 3
+   1. Size: 2.23" x 4.08" at (6.66", 0.68)
+   2. Size: 2.23" x 4.08" at (0.98", 0.68)
+   3. Size: 2.23" x 4.08" at (3.74", 0.68)
+
+GROUP SUMMARY:
+   Group shapes: 0
+
+TABLE SUMMARY:
+   Table shapes: 0
+
+CHART SUMMARY:
+   Chart shapes: 0
+
+====================================================================================================
+PAGE 4 ANALYSIS
+====================================================================================================
+PAGE 4 COMPLETE ANALYSIS:
+   Total shapes: 8
+   Slide ID: 759
+
+SHAPE 1: 'AutoShape 2' (Auto Shape)
+   Position: (0.170", -0.158")
+   Size: 0.33" x 0.33" 
+   Area: 0.11 sq inches
+   Z-Order: 0 (0 = back, higher = front)
+   Rotation: 0.0°
+   Fill Type: FillFormat
+   Fill Color: Not accessible (TypeError)
+   Line Color: ColorFormat
+   Line Width: 0
+   ================================================================================
+
+SHAPE 2: 'Txt_Title' (Auto Shape)
+   Position: (0.766", 0.058")
+   Size: 9.23" x 0.57" 
+   Area: 5.28 sq inches
+   Z-Order: 1 (0 = back, higher = front)
+   Rotation: 0.0°
+   Fill Type: FillFormat
+   Fill Color: Not accessible (TypeError)
+   Line Color: ColorFormat
+   Line Width: 0
+   Text Content: "คาดการณ์ฝนเดือนเมษายน - มิถุนายน 2569 จาก ONEMAP"
+       TEXT FRAME ANALYSIS:
+           Auto Size: SHAPE_TO_FIT_TEXT (1)
+           Margins: Left=91440, Right=91440, Top=45720, Bottom=45720
+           Vertical Anchor: TOP (1)
+           Word Wrap: True
+           Paragraphs: 1
+           PARAGRAPH 1:
+               Alignment: Unknown (None)
+               Space After: None
+               Space Before: None
+               Line Spacing: None
+               Level: 0
+               Runs: 4
+               RUN 1: "คาดการณ์ฝนเดือนเมษายน "
+                   Font Name: DB Heavent
+                   Font Size: 355600
+                   Bold: True
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Unknown (NOT_THEME_COLOR (0))
+                   Brightness: 0
+                   Language ID: THAI (1054)
+               RUN 2: "-"
+                   Font Name: DB Heavent
+                   Font Size: 355600
+                   Bold: True
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Unknown (NOT_THEME_COLOR (0))
+                   Brightness: 0
+                   Language ID: ENGLISH_US (1033)
+               RUN 3: " มิถุนายน 2569 จาก"
+                   Font Name: DB Heavent
+                   Font Size: 355600
+                   Bold: True
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Unknown (NOT_THEME_COLOR (0))
+                   Brightness: 0
+                   Language ID: THAI (1054)
+               RUN 4: " ONEMAP"
+                   Font Name: DB Heavent
+                   Font Size: 355600
+                   Bold: True
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Unknown (NOT_THEME_COLOR (0))
+                   Brightness: 0
+                   Language ID: ENGLISH_US (1033)
+   ================================================================================
+
+SHAPE 3: 'Img_FloodRainFcst_M6' (Picture)
+   Position: (6.660", 0.679")
+   Size: 2.23" x 4.08" 
+   Area: 9.08 sq inches
+   Z-Order: 2 (0 = back, higher = front)
+   Rotation: 0.0°
+   Line Color: ColorFormat
+   Line Width: 0
+       PICTURE ANALYSIS:
+           Image Type: Image
+           Image Size: (655, 1200)
+           Image Format: image/png
+           Filename: image.png
+           Crop - Left: 0.0, Right: 0.0, Top: 0.0, Bottom: 0.0
+   ================================================================================
+
+SHAPE 4: 'Img_FloodRainFcst_M4' (Picture)
+   Position: (0.983", 0.679")
+   Size: 2.23" x 4.08" 
+   Area: 9.08 sq inches
+   Z-Order: 3 (0 = back, higher = front)
+   Rotation: 0.0°
+   Line Color: ColorFormat
+   Line Width: 0
+       PICTURE ANALYSIS:
+           Image Type: Image
+           Image Size: (655, 1200)
+           Image Format: image/png
+           Filename: image.png
+           Crop - Left: 0.0, Right: 0.0, Top: 0.0, Bottom: 0.0
+   ================================================================================
+
+SHAPE 5: 'Img_FloodRainFcst_M5' (Picture)
+   Position: (3.739", 0.679")
+   Size: 2.23" x 4.08" 
+   Area: 9.08 sq inches
+   Z-Order: 4 (0 = back, higher = front)
+   Rotation: 0.0°
+   Line Color: ColorFormat
+   Line Width: 0
+       PICTURE ANALYSIS:
+           Image Type: Image
+           Image Size: (655, 1200)
+           Image Format: image/png
+           Filename: image.png
+           Crop - Left: 0.0, Right: 0.0, Top: 0.0, Bottom: 0.0
+   ================================================================================
+
+SHAPE 6: 'Lbl_Month_M4' (Text Box)
+   Position: (1.022", 4.669")
+   Size: 2.15" x 0.40" 
+   Area: 0.87 sq inches
+   Z-Order: 5 (0 = back, higher = front)
+   Rotation: 0.0°
+   Fill Type: FillFormat
+   Fill Color: Not accessible (TypeError)
+   Line Color: ColorFormat
+   Line Width: 0
+   Text Content: "เมษายน"
+       TEXT FRAME ANALYSIS:
+           Auto Size: SHAPE_TO_FIT_TEXT (1)
+           Margins: Left=91440, Right=91440, Top=45720, Bottom=45720
+           Vertical Anchor: None
+           Word Wrap: True
+           Paragraphs: 1
+           PARAGRAPH 1:
+               Alignment: Center
+               Space After: None
+               Space Before: None
+               Line Spacing: None
+               Level: 0
+               Runs: 1
+               RUN 1: "เมษายน"
+                   Font Name: DB Heavent
+                   Font Size: 228600
+                   Bold: None
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Background 2
+                   Brightness: -0.75
+                   Language ID: THAI (1054)
+   ================================================================================
+
+SHAPE 7: 'Lbl_Month_M5' (Text Box)
+   Position: (3.800", 4.669")
+   Size: 2.11" x 0.40" 
+   Area: 0.85 sq inches
+   Z-Order: 6 (0 = back, higher = front)
+   Rotation: 0.0°
+   Fill Type: FillFormat
+   Fill Color: Not accessible (TypeError)
+   Line Color: ColorFormat
+   Line Width: 0
+   Text Content: "พฤษภาคม"
+       TEXT FRAME ANALYSIS:
+           Auto Size: SHAPE_TO_FIT_TEXT (1)
+           Margins: Left=91440, Right=91440, Top=45720, Bottom=45720
+           Vertical Anchor: None
+           Word Wrap: True
+           Paragraphs: 1
+           PARAGRAPH 1:
+               Alignment: Center
+               Space After: None
+               Space Before: None
+               Line Spacing: None
+               Level: 0
+               Runs: 1
+               RUN 1: "พฤษภาคม"
+                   Font Name: DB Heavent
+                   Font Size: 228600
+                   Bold: None
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Background 2
+                   Brightness: -0.75
+                   Language ID: THAI (1054)
+   ================================================================================
+
+SHAPE 8: 'Lbl_Month_M6' (Text Box)
+   Position: (6.721", 4.658")
+   Size: 2.11" x 0.40" 
+   Area: 0.85 sq inches
+   Z-Order: 7 (0 = back, higher = front)
+   Rotation: 0.0°
+   Fill Type: FillFormat
+   Fill Color: Not accessible (TypeError)
+   Line Color: ColorFormat
+   Line Width: 0
+   Text Content: "มิถุนายน"
+       TEXT FRAME ANALYSIS:
+           Auto Size: SHAPE_TO_FIT_TEXT (1)
+           Margins: Left=91440, Right=91440, Top=45720, Bottom=45720
+           Vertical Anchor: TOP (1)
+           Word Wrap: True
+           Paragraphs: 1
+           PARAGRAPH 1:
+               Alignment: Center
+               Space After: None
+               Space Before: None
+               Line Spacing: None
+               Level: 0
+               Runs: 1
+               RUN 1: "มิถุนายน"
+                   Font Name: DB Heavent
+                   Font Size: 228600
+                   Bold: None
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Background 2
+                   Brightness: -0.75
+                   Language ID: THAI (1054)
+   ================================================================================
+
+SHAPE TYPE SUMMARY:
+   Auto Shape: 2
+   Picture: 3
+   Text Box: 3
+
+TEXT SUMMARY:
+   Text shapes: 4
+   1. "คาดการณ์ฝนเดือนเมษายน - มิถุนายน 2569 จาก ONEMAP"
+   2. "เมษายน"
+   3. "พฤษภาคม"
+   4. "มิถุนายน"
+
+IMAGE SUMMARY:
+   Image shapes: 3
+   1. Size: 2.23" x 4.08" at (6.66", 0.68)
+   2. Size: 2.23" x 4.08" at (0.98", 0.68)
+   3. Size: 2.23" x 4.08" at (3.74", 0.68)
+
+GROUP SUMMARY:
+   Group shapes: 0
+
+TABLE SUMMARY:
+   Table shapes: 0
+
+CHART SUMMARY:
+   Chart shapes: 0
+
+====================================================================================================
+PAGE 5 ANALYSIS
+====================================================================================================
+PAGE 5 COMPLETE ANALYSIS:
+   Total shapes: 9
+   Slide ID: 754
+
+SHAPE 1: 'Txt_Title' (Auto Shape)
+   Position: (0.766", 0.115")
+   Size: 9.23" x 0.57" 
+   Area: 5.28 sq inches
+   Z-Order: 0 (0 = back, higher = front)
+   Rotation: 0.0°
+   Fill Type: FillFormat
+   Fill Color: Not accessible (TypeError)
+   Line Color: ColorFormat
+   Line Width: 0
+   Text Content: "สรุปผลการคาดการณ์พื้นที่เสี่ยงอุทกภัยเดือนมกราคม-มิถุนายน 2569"
+       TEXT FRAME ANALYSIS:
+           Auto Size: SHAPE_TO_FIT_TEXT (1)
+           Margins: Left=91440, Right=91440, Top=45720, Bottom=45720
+           Vertical Anchor: None
+           Word Wrap: True
+           Paragraphs: 1
+           PARAGRAPH 1:
+               Alignment: Unknown (None)
+               Space After: None
+               Space Before: None
+               Line Spacing: None
+               Level: 0
+               Runs: 5
+               RUN 1: "สรุปผลการคาดการณ์พื้นที่เสี่ยงอุทกภัยเดือนมกราคม"
+                   Font Name: DB Heavent
+                   Font Size: 355600
+                   Bold: True
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Unknown (NOT_THEME_COLOR (0))
+                   Brightness: 0
+                   Language ID: THAI (1054)
+               RUN 2: "-"
+                   Font Name: DB Heavent
+                   Font Size: 355600
+                   Bold: True
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Unknown (NOT_THEME_COLOR (0))
+                   Brightness: 0
+                   Language ID: ENGLISH_US (1033)
+               RUN 3: "มิถุนายน"
+                   Font Name: DB Heavent
+                   Font Size: 355600
+                   Bold: True
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Unknown (NOT_THEME_COLOR (0))
+                   Brightness: 0
+                   Language ID: THAI (1054)
+               RUN 4: " "
+                   Font Name: DB Heavent
+                   Font Size: 355600
+                   Bold: True
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Unknown (NOT_THEME_COLOR (0))
+                   Brightness: 0
+                   Language ID: ENGLISH_US (1033)
+               RUN 5: "2569"
+                   Font Name: DB Heavent
+                   Font Size: 355600
+                   Bold: True
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Unknown (NOT_THEME_COLOR (0))
+                   Brightness: 0
+                   Language ID: THAI (1054)
+   ================================================================================
+
+SHAPE 2: 'Rectangle 9' (Auto Shape)
+   Position: (0.449", 4.569")
+   Size: 9.57" x 0.47" 
+   Area: 4.51 sq inches
+   Z-Order: 1 (0 = back, higher = front)
+   Rotation: 0.0°
+   Fill Type: FillFormat
+   Fill Color: Not accessible (TypeError)
+   Line Color: ColorFormat
+   Line Width: 0
+   Text Content: "ข้อควรทราบ:การคาดการณ์พื้นที่เสี่ยงอุทกภัย อาศัยคาดการณ์ฝนสูงสุดในระบบ ONEMAP ที่มีการปรับปรุงทุกเดือน ดังนั้นในอนาคตผลการคาดการณ์พื้นที่เสี่ยงอาจมีการเปลี่ยนแปลงได้
+ดาวน์โหลดข้อมูล : https://hdrive.hii.or.th/owncloud/index.php/s/9kAnEtcQuqkOFHc"
+       TEXT FRAME ANALYSIS:
+           Auto Size: SHAPE_TO_FIT_TEXT (1)
+           Margins: Left=91440, Right=91440, Top=45720, Bottom=45720
+           Vertical Anchor: None
+           Word Wrap: True
+           Paragraphs: 2
+           PARAGRAPH 1:
+               Alignment: Unknown (None)
+               Space After: None
+               Space Before: None
+               Line Spacing: None
+               Level: 0
+               Runs: 5
+               RUN 1: "ข้อควรทราบ"
+                   Font Name: DB Heavent Thin
+                   Font Size: 139700
+                   Bold: True
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Language ID: THAI (1054)
+               RUN 2: ":"
+                   Font Name: DB Heavent Thin
+                   Font Size: 139700
+                   Bold: True
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Language ID: ENGLISH_US (1033)
+               RUN 3: "การคาดการณ์พื้นที่เสี่ยงอุทกภัย อาศัยคาดการณ์ฝนสูงสุดในระบบ"
+                   Font Name: DB Heavent Thin
+                   Font Size: 139700
+                   Bold: None
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Language ID: THAI (1054)
+               RUN 4: " ONEMAP"
+                   Font Name: DB Heavent Thin
+                   Font Size: 139700
+                   Bold: None
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Language ID: ENGLISH_US (1033)
+               RUN 5: " ที่มีการปรับปรุงทุกเดือน ดังนั้นในอนาคตผลการคาดการณ์พื้นที่เสี่ยงอาจมีการเปลี่ยนแปลงได้"
+                   Font Name: DB Heavent Thin
+                   Font Size: 139700
+                   Bold: None
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Language ID: THAI (1054)
+           PARAGRAPH 2:
+               Alignment: Unknown (None)
+               Space After: None
+               Space Before: None
+               Line Spacing: None
+               Level: 0
+               Runs: 3
+               RUN 1: "ดาวน์โหลดข้อมูล"
+                   Font Name: DB Heavent Thin
+                   Font Size: 139700
+                   Bold: True
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Language ID: THAI (1054)
+               RUN 2: " : "
+                   Font Name: DB Heavent Thin
+                   Font Size: 139700
+                   Bold: True
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Language ID: ENGLISH_US (1033)
+               RUN 3: "https://hdrive.hii.or.th/owncloud/index.php/s/9kAnEtcQuqkOFHc"
+                   Font Name: DB Heavent Thin
+                   Font Size: 139700
+                   Bold: None
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Language ID: ENGLISH_US (1033)
+   ================================================================================
+
+SHAPE 3: 'Img_FloodRiskFcst_M1' (Picture)
+   Position: (0.602", 0.590")
+   Size: 1.36" x 2.51" 
+   Area: 3.40 sq inches
+   Z-Order: 2 (0 = back, higher = front)
+   Rotation: 0.0°
+   Line Color: ColorFormat
+   Line Width: 0
+       PICTURE ANALYSIS:
+           Image Type: Image
+           Image Size: (648, 1200)
+           Image Format: image/png
+           Filename: image.png
+           Crop - Left: 0.0, Right: 0.0, Top: 0.0, Bottom: 0.0
+   ================================================================================
+
+SHAPE 4: 'Img_FloodRiskFcst_M2' (Picture)
+   Position: (2.155", 0.590")
+   Size: 1.36" x 2.51" 
+   Area: 3.40 sq inches
+   Z-Order: 3 (0 = back, higher = front)
+   Rotation: 0.0°
+   Line Color: ColorFormat
+   Line Width: 0
+       PICTURE ANALYSIS:
+           Image Type: Image
+           Image Size: (648, 1200)
+           Image Format: image/png
+           Filename: image.png
+           Crop - Left: 0.0, Right: 0.0, Top: 0.0, Bottom: 0.0
+   ================================================================================
+
+SHAPE 5: 'Img_FloodRiskFcst_M3' (Picture)
+   Position: (3.709", 0.590")
+   Size: 1.36" x 2.51" 
+   Area: 3.40 sq inches
+   Z-Order: 4 (0 = back, higher = front)
+   Rotation: 0.0°
+   Line Color: ColorFormat
+   Line Width: 0
+       PICTURE ANALYSIS:
+           Image Type: Image
+           Image Size: (648, 1200)
+           Image Format: image/png
+           Filename: image.png
+           Crop - Left: 0.0, Right: 0.0, Top: 0.0, Bottom: 0.0
+   ================================================================================
+
+SHAPE 6: 'Img_FloodRiskFcst_M4' (Picture)
+   Position: (5.263", 0.590")
+   Size: 1.36" x 2.51" 
+   Area: 3.40 sq inches
+   Z-Order: 5 (0 = back, higher = front)
+   Rotation: 0.0°
+   Line Color: ColorFormat
+   Line Width: 0
+       PICTURE ANALYSIS:
+           Image Type: Image
+           Image Size: (648, 1200)
+           Image Format: image/png
+           Filename: image.png
+           Crop - Left: 0.0, Right: 0.0, Top: 0.0, Bottom: 0.0
+   ================================================================================
+
+SHAPE 7: 'Img_FloodRiskFcst_M5' (Picture)
+   Position: (6.816", 0.590")
+   Size: 1.36" x 2.51" 
+   Area: 3.40 sq inches
+   Z-Order: 6 (0 = back, higher = front)
+   Rotation: 0.0°
+   Line Color: ColorFormat
+   Line Width: 0
+       PICTURE ANALYSIS:
+           Image Type: Image
+           Image Size: (648, 1200)
+           Image Format: image/png
+           Filename: image.png
+           Crop - Left: 0.0, Right: 0.0, Top: 0.0, Bottom: 0.0
+   ================================================================================
+
+SHAPE 8: 'Img_FloodRiskFcst_M6' (Picture)
+   Position: (8.370", 0.590")
+   Size: 1.36" x 2.51" 
+   Area: 3.40 sq inches
+   Z-Order: 7 (0 = back, higher = front)
+   Rotation: 0.0°
+   Line Color: ColorFormat
+   Line Width: 0
+       PICTURE ANALYSIS:
+           Image Type: Image
+           Image Size: (648, 1200)
+           Image Format: image/png
+           Filename: image.png
+           Crop - Left: 0.0, Right: 0.0, Top: 0.0, Bottom: 0.0
+   ================================================================================
+
+SHAPE 9: 'Group 48' (Group)
+   Position: (0.544", 3.100")
+   Size: 9.01" x 1.51" 
+   Area: 13.57 sq inches
+   Z-Order: 8 (0 = back, higher = front)
+   Rotation: 0.0°
+       GROUP ANALYSIS (Depth 0):
+           Child Shapes: 2
+           CHILD 1: Text Box
+               Position: (0.470", 4.320")
+               Size: 5.93" x 0.29" 
+               Text Content: "หมายเหตุ: การนับจำนวนจังหวัดและอำเภอเป็นแบบไม่ซ้ำ โดยพื้นที่ที่มีความเสี่ยงมากกว่าหนึ่งประเภทจะถูกนับเพียงครั้งเดียว"
+           CHILD 2: Picture
+               Position: (0.523", 3.100")
+               Size: 8.95" x 1.26" 
+   ================================================================================
+
+SHAPE TYPE SUMMARY:
+   Auto Shape: 2
+   Group: 1
+   Picture: 6
+
+TEXT SUMMARY:
+   Text shapes: 2
+   1. "สรุปผลการคาดการณ์พื้นที่เสี่ยงอุทกภัยเดือนมกราคม-ม..."
+   2. "ข้อควรทราบ:การคาดการณ์พื้นที่เสี่ยงอุทกภัย อาศัยคา..."
+
+IMAGE SUMMARY:
+   Image shapes: 6
+   1. Size: 1.36" x 2.51" at (0.60", 0.59)
+   2. Size: 1.36" x 2.51" at (2.16", 0.59)
+   3. Size: 1.36" x 2.51" at (3.71", 0.59)
+   4. Size: 1.36" x 2.51" at (5.26", 0.59)
+   5. Size: 1.36" x 2.51" at (6.82", 0.59)
+   6. Size: 1.36" x 2.51" at (8.37", 0.59)
+
+GROUP SUMMARY:
+   Group shapes: 1
+   1. Size: 9.01" x 1.51" at (0.54", 3.10") - 2 children
+
+TABLE SUMMARY:
+   Table shapes: 0
+
+CHART SUMMARY:
+   Chart shapes: 0
+
+====================================================================================================
+PAGE 6 ANALYSIS
+====================================================================================================
+PAGE 6 COMPLETE ANALYSIS:
+   Total shapes: 1
+   Slide ID: 259
+
+SHAPE 1: 'Group 9' (Group)
+   Position: (2.572", 2.652")
+   Size: 4.86" x 0.57" 
+   Area: 2.76 sq inches
+   Z-Order: 0 (0 = back, higher = front)
+   Rotation: 0.0°
+       GROUP ANALYSIS (Depth 0):
+           Child Shapes: 9
+           CHILD 1: Picture
+               Position: (2.428", 4.934")
+               Size: 0.52" x 0.61" 
+           CHILD 2: Picture
+               Position: (1.176", 4.919")
+               Size: 0.54" x 0.64" 
+           CHILD 3: Picture
+               Position: (3.576", 4.934")
+               Size: 0.62" x 0.61" 
+           CHILD 4: Picture
+               Position: (4.199", 4.905")
+               Size: 0.70" x 0.67" 
+           CHILD 5: Picture
+               Position: (2.954", 4.934")
+               Size: 0.62" x 0.61" 
+           CHILD 6: Picture
+               Position: (0.739", 4.934")
+               Size: 0.44" x 0.61" 
+           CHILD 7: Picture
+               Position: (4.897", 4.934")
+               Size: 1.09" x 0.61" 
+           CHILD 8: Picture
+               Position: (0.100", 4.942")
+               Size: 0.62" x 0.61" 
+           CHILD 9: Picture
+               Position: (1.721", 4.905")
+               Size: 0.71" x 0.69" 
+   ================================================================================
+
+SHAPE TYPE SUMMARY:
+   Group: 1
+
+TEXT SUMMARY:
+   Text shapes: 0
+
+IMAGE SUMMARY:
+   Image shapes: 0
+
+GROUP SUMMARY:
+   Group shapes: 1
+   1. Size: 4.86" x 0.57" at (2.57", 2.65") - 9 children
+
+TABLE SUMMARY:
+   Table shapes: 0
+
+CHART SUMMARY:
+   Chart shapes: 0
+
+====================================================================================================
+PAGE 7 ANALYSIS
+====================================================================================================
+PAGE 7 COMPLETE ANALYSIS:
+   Total shapes: 2
+   Slide ID: 756
+
+SHAPE 1: 'Rectangle 5' (Auto Shape)
+   Position: (0.766", 0.150")
+   Size: 9.23" x 0.61" 
+   Area: 5.59 sq inches
+   Z-Order: 0 (0 = back, higher = front)
+   Rotation: 0.0°
+   Fill Type: FillFormat
+   Fill Color: Not accessible (TypeError)
+   Line Color: ColorFormat
+   Line Width: 0
+   Text Content: "ข้อมูลสำหรับการวิเคราะห์"
+       TEXT FRAME ANALYSIS:
+           Auto Size: SHAPE_TO_FIT_TEXT (1)
+           Margins: Left=91440, Right=91440, Top=45720, Bottom=45720
+           Vertical Anchor: None
+           Word Wrap: True
+           Paragraphs: 1
+           PARAGRAPH 1:
+               Alignment: Unknown (None)
+               Space After: None
+               Space Before: None
+               Line Spacing: None
+               Level: 0
+               Runs: 1
+               RUN 1: "ข้อมูลสำหรับการวิเคราะห์"
+                   Font Name: DB Heavent
+                   Font Size: 381000
+                   Bold: True
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Unknown (NOT_THEME_COLOR (0))
+                   Brightness: 0
+                   Language ID: THAI (1054)
+   ================================================================================
+
+SHAPE 2: 'TextBox 8' (Text Box)
+   Position: (0.766", 0.899")
+   Size: 9.23" x 3.60" 
+   Area: 33.26 sq inches
+   Z-Order: 1 (0 = back, higher = front)
+   Rotation: 0.0°
+   Fill Type: FillFormat
+   Fill Color: Not accessible (TypeError)
+   Line Color: ColorFormat
+   Line Width: 0
+   Text Content: "ข้อมูลแผนที่เสี่ยงจากหน่วยงานต่างๆ (Baseline potential risk maps)
+กรมป้องกันและบรรเทาสาธารณภัย: พื้นที่น้ำท่วมปี 2558 - 2567 *อัพเดตใหม่ปี 2568
+สทอภ. : แผนที่น้ำท่วมจากภาพถ่ายดาวเทียมปี 2549 - 2562
+กรมทรัพยากรน้ำ: พื้นที่เตือนภัยอพยพปี 2550-2566
+กรมทรัพยากรธรณี และ สสน.:  พื้นที่เสี่ยงเกิดน้ำท่วมฉับพลันปี 2562
+ข้อมูลประกอบอื่น ๆ เช่น ลำน้ำเส้นทางน้ำ
+ข้อมูลฝนคาดการณ์รายเดือนสำหรับจัดทำแผนที่ ONEMAP 
+กรมอุตุนิยมวิทยา: ผลคาดการณ์ปริมาณฝนสะสมรายเดือนตั้งแต่ มกราคม – มิถุนายน 2569และปริมาณฝนสะสมจากสถานีตรวจวัดเดือนธันวาคม 2568
+สสน.: ผลคาดการณ์ปริมาณฝนสะสมรายเดือนตั้งแต่ มกราคม  – มิถุนายน 2569"
+       TEXT FRAME ANALYSIS:
+           Auto Size: SHAPE_TO_FIT_TEXT (1)
+           Margins: Left=91440, Right=91440, Top=45720, Bottom=45720
+           Vertical Anchor: TOP (1)
+           Word Wrap: True
+           Paragraphs: 9
+           PARAGRAPH 1:
+               Alignment: Unknown (None)
+               Space After: None
+               Space Before: None
+               Line Spacing: None
+               Level: 0
+               Runs: 8
+               RUN 1: "ข้อมูลแผนที่เสี่ยงจากหน่วยงานต่างๆ "
+                   Font Name: DB Heavent
+                   Font Size: 304800
+                   Bold: True
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Unknown (NOT_THEME_COLOR (0))
+                   Brightness: 0
+                   Language ID: THAI (1054)
+               RUN 2: "(Baseline"
+                   Font Name: DB Heavent
+                   Font Size: 304800
+                   Bold: True
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Unknown (NOT_THEME_COLOR (0))
+                   Brightness: 0
+                   Language ID: ENGLISH_US (1033)
+               RUN 3: " "
+                   Font Name: DB Heavent
+                   Font Size: 304800
+                   Bold: True
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Unknown (NOT_THEME_COLOR (0))
+                   Brightness: 0
+                   Language ID: THAI (1054)
+               RUN 4: "potential"
+                   Font Name: DB Heavent
+                   Font Size: 304800
+                   Bold: True
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Unknown (NOT_THEME_COLOR (0))
+                   Brightness: 0
+                   Language ID: ENGLISH_US (1033)
+               RUN 5: " "
+                   Font Name: DB Heavent
+                   Font Size: 304800
+                   Bold: True
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Unknown (NOT_THEME_COLOR (0))
+                   Brightness: 0
+                   Language ID: THAI (1054)
+               RUN 6: "risk"
+                   Font Name: DB Heavent
+                   Font Size: 304800
+                   Bold: True
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Unknown (NOT_THEME_COLOR (0))
+                   Brightness: 0
+                   Language ID: ENGLISH_US (1033)
+               RUN 7: " "
+                   Font Name: DB Heavent
+                   Font Size: 304800
+                   Bold: True
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Unknown (NOT_THEME_COLOR (0))
+                   Brightness: 0
+                   Language ID: THAI (1054)
+               RUN 8: "maps)"
+                   Font Name: DB Heavent
+                   Font Size: 304800
+                   Bold: True
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Unknown (NOT_THEME_COLOR (0))
+                   Brightness: 0
+                   Language ID: ENGLISH_US (1033)
+           PARAGRAPH 2:
+               Alignment: Unknown (None)
+               Space After: None
+               Space Before: None
+               Line Spacing: None
+               Level: 0
+               Runs: 5
+               RUN 1: "กรมป้องกันและบรรเทาสาธารณภัย"
+                   Font Name: DB Heavent
+                   Font Size: 254000
+                   Bold: True
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Unknown (NOT_THEME_COLOR (0))
+                   Brightness: 0
+                   Language ID: THAI (1054)
+               RUN 2: ":"
+                   Font Name: DB Heavent
+                   Font Size: 254000
+                   Bold: True
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Unknown (NOT_THEME_COLOR (0))
+                   Brightness: 0
+                   Language ID: ENGLISH_US (1033)
+               RUN 3: " "
+                   Font Name: DB Heavent
+                   Font Size: 254000
+                   Bold: None
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Language ID: ENGLISH_US (1033)
+               RUN 4: "พื้นที่น้ำท่วมปี 2558 - 2567 "
+                   Font Name: DB Heavent
+                   Font Size: 254000
+                   Bold: None
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Language ID: THAI (1054)
+               RUN 5: "*อัพเดตใหม่ปี 2568"
+                   Font Name: DB Heavent
+                   Font Size: 254000
+                   Bold: None
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Unknown (NOT_THEME_COLOR (0))
+                   Brightness: 0
+                   Language ID: THAI (1054)
+           PARAGRAPH 3:
+               Alignment: Unknown (None)
+               Space After: None
+               Space Before: None
+               Line Spacing: None
+               Level: 0
+               Runs: 4
+               RUN 1: "สทอภ."
+                   Font Name: DB Heavent
+                   Font Size: 254000
+                   Bold: True
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Unknown (NOT_THEME_COLOR (0))
+                   Brightness: 0
+                   Language ID: THAI (1054)
+               RUN 2: " :"
+                   Font Name: DB Heavent
+                   Font Size: 254000
+                   Bold: True
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Unknown (NOT_THEME_COLOR (0))
+                   Brightness: 0
+                   Language ID: ENGLISH_US (1033)
+               RUN 3: " "
+                   Font Name: DB Heavent
+                   Font Size: 254000
+                   Bold: None
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Unknown (NOT_THEME_COLOR (0))
+                   Brightness: 0
+                   Language ID: ENGLISH_US (1033)
+               RUN 4: "แผนที่น้ำท่วมจากภาพถ่ายดาวเทียมปี 2549 - 2562"
+                   Font Name: DB Heavent
+                   Font Size: 254000
+                   Bold: None
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Background 2
+                   Brightness: -0.75
+                   Language ID: THAI (1054)
+           PARAGRAPH 4:
+               Alignment: Unknown (None)
+               Space After: None
+               Space Before: None
+               Line Spacing: None
+               Level: 0
+               Runs: 4
+               RUN 1: "กรมทรัพยากรน้ำ"
+                   Font Name: DB Heavent
+                   Font Size: 254000
+                   Bold: True
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Unknown (NOT_THEME_COLOR (0))
+                   Brightness: 0
+                   Language ID: THAI (1054)
+               RUN 2: ":"
+                   Font Name: DB Heavent
+                   Font Size: 254000
+                   Bold: True
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Unknown (NOT_THEME_COLOR (0))
+                   Brightness: 0
+                   Language ID: ENGLISH_US (1033)
+               RUN 3: " "
+                   Font Name: DB Heavent
+                   Font Size: 254000
+                   Bold: None
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Unknown (NOT_THEME_COLOR (0))
+                   Brightness: 0
+                   Language ID: ENGLISH_US (1033)
+               RUN 4: "พื้นที่เตือนภัยอพยพปี 2550-2566"
+                   Font Name: DB Heavent
+                   Font Size: 254000
+                   Bold: None
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Language ID: THAI (1054)
+           PARAGRAPH 5:
+               Alignment: Unknown (None)
+               Space After: None
+               Space Before: None
+               Line Spacing: None
+               Level: 0
+               Runs: 4
+               RUN 1: "กรมทรัพยากรธรณี และ สสน."
+                   Font Name: DB Heavent
+                   Font Size: 254000
+                   Bold: True
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Unknown (NOT_THEME_COLOR (0))
+                   Brightness: 0
+                   Language ID: THAI (1054)
+               RUN 2: ":"
+                   Font Name: DB Heavent
+                   Font Size: 254000
+                   Bold: True
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Unknown (NOT_THEME_COLOR (0))
+                   Brightness: 0
+                   Language ID: ENGLISH_US (1033)
+               RUN 3: " "
+                   Font Name: DB Heavent
+                   Font Size: 254000
+                   Bold: None
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Unknown (NOT_THEME_COLOR (0))
+                   Brightness: 0
+                   Language ID: ENGLISH_US (1033)
+               RUN 4: " พื้นที่เสี่ยงเกิดน้ำท่วมฉับพลันปี 2562"
+                   Font Name: DB Heavent
+                   Font Size: 254000
+                   Bold: None
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Background 2
+                   Brightness: -0.75
+                   Language ID: THAI (1054)
+           PARAGRAPH 6:
+               Alignment: Unknown (None)
+               Space After: None
+               Space Before: None
+               Line Spacing: None
+               Level: 0
+               Runs: 2
+               RUN 1: "ข้อมูลประกอบอื่น ๆ"
+                   Font Name: DB Heavent
+                   Font Size: 254000
+                   Bold: True
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Unknown (NOT_THEME_COLOR (0))
+                   Brightness: 0
+                   Language ID: THAI (1054)
+               RUN 2: " เช่น ลำน้ำเส้นทางน้ำ"
+                   Font Name: DB Heavent
+                   Font Size: 254000
+                   Bold: None
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Background 2
+                   Brightness: -0.75
+                   Language ID: THAI (1054)
+           PARAGRAPH 7:
+               Alignment: Unknown (None)
+               Space After: None
+               Space Before: None
+               Line Spacing: None
+               Level: 0
+               Runs: 2
+               RUN 1: "ข้อมูลฝนคาดการณ์รายเดือนสำหรับจัดทำแผนที่"
+                   Font Name: DB Heavent
+                   Font Size: 304800
+                   Bold: True
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Unknown (NOT_THEME_COLOR (0))
+                   Brightness: 0
+                   Language ID: THAI (1054)
+               RUN 2: " ONEMAP "
+                   Font Name: DB Heavent
+                   Font Size: 304800
+                   Bold: True
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Unknown (NOT_THEME_COLOR (0))
+                   Brightness: 0
+                   Language ID: ENGLISH_US (1033)
+           PARAGRAPH 8:
+               Alignment: Unknown (None)
+               Space After: None
+               Space Before: None
+               Line Spacing: None
+               Level: 0
+               Runs: 10
+               RUN 1: "กรมอุตุนิยมวิทยา"
+                   Font Name: DB Heavent
+                   Font Size: 254000
+                   Bold: True
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Unknown (NOT_THEME_COLOR (0))
+                   Brightness: 0
+                   Language ID: THAI (1054)
+               RUN 2: ":"
+                   Font Name: DB Heavent
+                   Font Size: 254000
+                   Bold: True
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Unknown (NOT_THEME_COLOR (0))
+                   Brightness: 0
+                   Language ID: ENGLISH_US (1033)
+               RUN 3: " ผลคาดการณ์ปริมาณฝนสะสมรายเดือนตั้งแต่ มกราคม"
+                   Font Name: DB Heavent
+                   Font Size: 254000
+                   Bold: None
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Background 2
+                   Brightness: -0.75
+                   Language ID: THAI (1054)
+               RUN 4: " "
+                   Font Name: DB Heavent
+                   Font Size: 254000
+                   Bold: None
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Background 2
+                   Brightness: -0.75
+                   Language ID: ENGLISH_US (1033)
+               RUN 5: "– มิถุนายน"
+                   Font Name: DB Heavent
+                   Font Size: 254000
+                   Bold: None
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Background 2
+                   Brightness: -0.75
+                   Language ID: THAI (1054)
+               RUN 6: " "
+                   Font Name: DB Heavent
+                   Font Size: 254000
+                   Bold: None
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Background 2
+                   Brightness: -0.75
+                   Language ID: ENGLISH_US (1033)
+               RUN 7: "2569"
+                   Font Name: DB Heavent
+                   Font Size: 254000
+                   Bold: None
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Background 2
+                   Brightness: -0.75
+                   Language ID: THAI (1054)
+               RUN 8: "และปริมาณฝนสะสมจากสถานีตรวจวัดเดือนธันวาคม"
+                   Font Name: DB Heavent
+                   Font Size: 254000
+                   Bold: None
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Background 2
+                   Brightness: -0.75
+                   Language ID: THAI (1054)
+               RUN 9: " 256"
+                   Font Name: DB Heavent
+                   Font Size: 254000
+                   Bold: None
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Background 2
+                   Brightness: -0.75
+                   Language ID: ENGLISH_US (1033)
+               RUN 10: "8"
+                   Font Name: DB Heavent
+                   Font Size: 254000
+                   Bold: None
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Background 2
+                   Brightness: -0.75
+                   Language ID: THAI (1054)
+           PARAGRAPH 9:
+               Alignment: Unknown (None)
+               Space After: None
+               Space Before: None
+               Line Spacing: None
+               Level: 0
+               Runs: 7
+               RUN 1: "สสน."
+                   Font Name: DB Heavent
+                   Font Size: 254000
+                   Bold: True
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Unknown (NOT_THEME_COLOR (0))
+                   Brightness: 0
+                   Language ID: THAI (1054)
+               RUN 2: ":"
+                   Font Name: DB Heavent
+                   Font Size: 254000
+                   Bold: True
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Unknown (NOT_THEME_COLOR (0))
+                   Brightness: 0
+                   Language ID: ENGLISH_US (1033)
+               RUN 3: " ผลคาดการณ์ปริมาณฝนสะสมรายเดือนตั้งแต่ มกราคม"
+                   Font Name: DB Heavent
+                   Font Size: 254000
+                   Bold: None
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Background 2
+                   Brightness: -0.75
+                   Language ID: THAI (1054)
+               RUN 4: " "
+                   Font Name: DB Heavent
+                   Font Size: 254000
+                   Bold: None
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Background 2
+                   Brightness: -0.75
+                   Language ID: ENGLISH_US (1033)
+               RUN 5: " – มิถุนายน"
+                   Font Name: DB Heavent
+                   Font Size: 254000
+                   Bold: None
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Background 2
+                   Brightness: -0.75
+                   Language ID: THAI (1054)
+               RUN 6: " "
+                   Font Name: DB Heavent
+                   Font Size: 254000
+                   Bold: None
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Background 2
+                   Brightness: -0.75
+                   Language ID: ENGLISH_US (1033)
+               RUN 7: "2569"
+                   Font Name: DB Heavent
+                   Font Size: 254000
+                   Bold: None
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Background 2
+                   Brightness: -0.75
+                   Language ID: THAI (1054)
+   ================================================================================
+
+SHAPE TYPE SUMMARY:
+   Auto Shape: 1
+   Text Box: 1
+
+TEXT SUMMARY:
+   Text shapes: 2
+   1. "ข้อมูลสำหรับการวิเคราะห์"
+   2. "ข้อมูลแผนที่เสี่ยงจากหน่วยงานต่างๆ (Baseline poten..."
+
+IMAGE SUMMARY:
+   Image shapes: 0
+
+GROUP SUMMARY:
+   Group shapes: 0
+
+TABLE SUMMARY:
+   Table shapes: 0
+
+CHART SUMMARY:
+   Chart shapes: 0
+
+====================================================================================================
+PAGE 8 ANALYSIS
+====================================================================================================
+PAGE 8 COMPLETE ANALYSIS:
+   Total shapes: 13
+   Slide ID: 757
+
+SHAPE 1: 'Rectangle 5' (Auto Shape)
+   Position: (0.766", 0.127")
+   Size: 9.23" x 0.61" 
+   Area: 5.59 sq inches
+   Z-Order: 0 (0 = back, higher = front)
+   Rotation: 0.0°
+   Fill Type: FillFormat
+   Fill Color: Not accessible (TypeError)
+   Line Color: ColorFormat
+   Line Width: 0
+   Text Content: "ข้อมูลแผนที่เสี่ยงจากหน่วยงานต่างๆ"
+       TEXT FRAME ANALYSIS:
+           Auto Size: SHAPE_TO_FIT_TEXT (1)
+           Margins: Left=91440, Right=91440, Top=45720, Bottom=45720
+           Vertical Anchor: None
+           Word Wrap: True
+           Paragraphs: 1
+           PARAGRAPH 1:
+               Alignment: Unknown (None)
+               Space After: None
+               Space Before: None
+               Line Spacing: None
+               Level: 0
+               Runs: 1
+               RUN 1: "ข้อมูลแผนที่เสี่ยงจากหน่วยงานต่างๆ"
+                   Font Name: DB Heavent
+                   Font Size: 381000
+                   Bold: True
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Unknown (NOT_THEME_COLOR (0))
+                   Brightness: 0
+                   Language ID: THAI (1054)
+   ================================================================================
+
+SHAPE 2: 'Picture 3' (Picture)
+   Position: (2.588", 1.347")
+   Size: 2.39" x 3.39" 
+   Area: 8.11 sq inches
+   Z-Order: 1 (0 = back, higher = front)
+   Rotation: 0.0°
+   Line Color: ColorFormat
+   Line Width: 0
+       PICTURE ANALYSIS:
+           Image Type: Image
+           Image Size: (579, 819)
+           Image Format: image/png
+           Filename: image.png
+           Crop - Left: 0.0, Right: 0.0, Top: 0.0, Bottom: 0.0
+   ================================================================================
+
+SHAPE 3: 'TextBox 19' (Text Box)
+   Position: (4.302", 4.678")
+   Size: 0.68" x 0.28" 
+   Area: 0.19 sq inches
+   Z-Order: 2 (0 = back, higher = front)
+   Rotation: 0.0°
+   Fill Type: FillFormat
+   Fill Color: Not accessible (TypeError)
+   Line Color: ColorFormat
+   Line Width: 0
+   Text Content: "ที่มา:สทอภ."
+       TEXT FRAME ANALYSIS:
+           Auto Size: SHAPE_TO_FIT_TEXT (1)
+           Margins: Left=91440, Right=91440, Top=45720, Bottom=45720
+           Vertical Anchor: None
+           Word Wrap: False
+           Paragraphs: 1
+           PARAGRAPH 1:
+               Alignment: Right
+               Space After: None
+               Space Before: None
+               Line Spacing: None
+               Level: 0
+               Runs: 3
+               RUN 1: "ที่มา"
+                   Font Name: DB Heavent Thin
+                   Font Size: 133350
+                   Bold: True
+                   Italic: True
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Language ID: THAI (1054)
+               RUN 2: ":"
+                   Font Name: DB Heavent Thin
+                   Font Size: 133350
+                   Bold: True
+                   Italic: True
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Language ID: ENGLISH_US (1033)
+               RUN 3: "สทอภ."
+                   Font Name: DB Heavent Thin
+                   Font Size: 133350
+                   Bold: None
+                   Italic: True
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Language ID: THAI (1054)
+   ================================================================================
+
+SHAPE 4: 'TextBox 2' (Text Box)
+   Position: (2.571", 0.725")
+   Size: 2.41" x 0.64" 
+   Area: 1.54 sq inches
+   Z-Order: 3 (0 = back, higher = front)
+   Rotation: 0.0°
+   Fill Type: FillFormat
+   Fill Color: Not accessible (TypeError)
+   Line Color: ColorFormat
+   Line Width: 0
+   Text Content: "พื้นที่น้ำท่วมซ้ำซากเชิงพื้นที่(2549 - 2562)"
+       TEXT FRAME ANALYSIS:
+           Auto Size: SHAPE_TO_FIT_TEXT (1)
+           Margins: Left=91440, Right=91440, Top=45720, Bottom=45720
+           Vertical Anchor: None
+           Word Wrap: True
+           Paragraphs: 1
+           PARAGRAPH 1:
+               Alignment: Center
+               Space After: None
+               Space Before: None
+               Line Spacing: None
+               Level: 0
+               Runs: 2
+               RUN 1: "พื้นที่น้ำท่วมซ้ำซากเชิงพื้นที่"
+                   Font Name: DB Heavent
+                   Font Size: 228600
+                   Bold: True
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Background 2
+                   Brightness: -0.75
+                   Language ID: THAI (1054)
+               RUN 2: "(2549 - 2562)"
+                   Font Name: DB Heavent
+                   Font Size: 177800
+                   Bold: None
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Background 2
+                   Brightness: -0.75
+                   Language ID: ENGLISH_US (1033)
+   ================================================================================
+
+SHAPE 5: 'TextBox 23' (Text Box)
+   Position: (0.758", 4.708")
+   Size: 1.80" x 0.28" 
+   Area: 0.50 sq inches
+   Z-Order: 4 (0 = back, higher = front)
+   Rotation: 0.0°
+   Fill Type: FillFormat
+   Fill Color: Not accessible (TypeError)
+   Line Color: ColorFormat
+   Line Width: 0
+   Text Content: "ที่มา:กรมป้องกันและบรรเทาสาธารณภัย"
+       TEXT FRAME ANALYSIS:
+           Auto Size: SHAPE_TO_FIT_TEXT (1)
+           Margins: Left=91440, Right=91440, Top=45720, Bottom=45720
+           Vertical Anchor: None
+           Word Wrap: False
+           Paragraphs: 1
+           PARAGRAPH 1:
+               Alignment: Unknown (None)
+               Space After: None
+               Space Before: None
+               Line Spacing: None
+               Level: 0
+               Runs: 3
+               RUN 1: "ที่มา"
+                   Font Name: DB Heavent Thin
+                   Font Size: 133350
+                   Bold: True
+                   Italic: True
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Language ID: THAI (1054)
+               RUN 2: ":"
+                   Font Name: DB Heavent Thin
+                   Font Size: 133350
+                   Bold: True
+                   Italic: True
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Language ID: ENGLISH_US (1033)
+               RUN 3: "กรมป้องกันและบรรเทาสาธารณภัย"
+                   Font Name: DB Heavent Thin
+                   Font Size: 133350
+                   Bold: None
+                   Italic: True
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Language ID: THAI (1054)
+   ================================================================================
+
+SHAPE 6: 'TextBox 26' (Text Box)
+   Position: (0.206", 0.725")
+   Size: 2.33" x 0.64" 
+   Area: 1.49 sq inches
+   Z-Order: 5 (0 = back, higher = front)
+   Rotation: 0.0°
+   Fill Type: FillFormat
+   Fill Color: Not accessible (TypeError)
+   Line Color: ColorFormat
+   Line Width: 0
+   Text Content: "พื้นที่น้ำท่วมซ้ำซากรายตำบล(2558-2567)"
+       TEXT FRAME ANALYSIS:
+           Auto Size: SHAPE_TO_FIT_TEXT (1)
+           Margins: Left=91440, Right=91440, Top=45720, Bottom=45720
+           Vertical Anchor: None
+           Word Wrap: True
+           Paragraphs: 1
+           PARAGRAPH 1:
+               Alignment: Center
+               Space After: None
+               Space Before: None
+               Line Spacing: None
+               Level: 0
+               Runs: 6
+               RUN 1: "พื้นที่น้ำท่วมซ้ำซากรายตำบล"
+                   Font Name: DB Heavent
+                   Font Size: 228600
+                   Bold: True
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Background 2
+                   Brightness: -0.75
+                   Language ID: THAI (1054)
+               RUN 2: "("
+                   Font Name: DB Heavent
+                   Font Size: 177800
+                   Bold: None
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Background 2
+                   Brightness: -0.75
+                   Language ID: THAI (1054)
+               RUN 3: "255"
+                   Font Name: DB Heavent
+                   Font Size: 177800
+                   Bold: None
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Background 2
+                   Brightness: -0.75
+                   Language ID: ENGLISH_US (1033)
+               RUN 4: "8"
+                   Font Name: DB Heavent
+                   Font Size: 177800
+                   Bold: None
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Background 2
+                   Brightness: -0.75
+                   Language ID: THAI (1054)
+               RUN 5: "-256"
+                   Font Name: DB Heavent
+                   Font Size: 177800
+                   Bold: None
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Background 2
+                   Brightness: -0.75
+                   Language ID: ENGLISH_US (1033)
+               RUN 6: "7)"
+                   Font Name: DB Heavent
+                   Font Size: 177800
+                   Bold: None
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Background 2
+                   Brightness: -0.75
+                   Language ID: THAI (1054)
+   ================================================================================
+
+SHAPE 7: 'Picture 9' (Picture)
+   Position: (4.997", 1.347")
+   Size: 2.39" x 3.39" 
+   Area: 8.11 sq inches
+   Z-Order: 6 (0 = back, higher = front)
+   Rotation: 0.0°
+   Line Color: ColorFormat
+   Line Width: 0
+       PICTURE ANALYSIS:
+           Image Type: Image
+           Image Size: (2481, 3509)
+           Image Format: image/png
+           Filename: image.png
+           Crop - Left: 0.0, Right: 0.0, Top: 0.0, Bottom: 0.0
+   ================================================================================
+
+SHAPE 8: 'TextBox 10' (Text Box)
+   Position: (4.930", 0.725")
+   Size: 2.52" x 0.64" 
+   Area: 1.61 sq inches
+   Z-Order: 7 (0 = back, higher = front)
+   Rotation: 0.0°
+   Fill Type: FillFormat
+   Fill Color: Not accessible (TypeError)
+   Line Color: ColorFormat
+   Line Width: 0
+   Text Content: "พื้นที่เตือนภัยอพยพ
+(2550-2566)"
+       TEXT FRAME ANALYSIS:
+           Auto Size: SHAPE_TO_FIT_TEXT (1)
+           Margins: Left=91440, Right=91440, Top=45720, Bottom=45720
+           Vertical Anchor: None
+           Word Wrap: True
+           Paragraphs: 2
+           PARAGRAPH 1:
+               Alignment: Center
+               Space After: None
+               Space Before: None
+               Line Spacing: None
+               Level: 0
+               Runs: 1
+               RUN 1: "พื้นที่เตือนภัยอพยพ"
+                   Font Name: DB Heavent
+                   Font Size: 228600
+                   Bold: True
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Background 2
+                   Brightness: -0.75
+                   Language ID: THAI (1054)
+           PARAGRAPH 2:
+               Alignment: Center
+               Space After: None
+               Space Before: None
+               Line Spacing: None
+               Level: 0
+               Runs: 3
+               RUN 1: "(25"
+                   Font Name: DB Heavent
+                   Font Size: 177800
+                   Bold: None
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Background 2
+                   Brightness: -0.75
+                   Language ID: THAI (1054)
+               RUN 2: "50-256"
+                   Font Name: DB Heavent
+                   Font Size: 177800
+                   Bold: None
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Background 2
+                   Brightness: -0.75
+                   Language ID: ENGLISH_US (1033)
+               RUN 3: "6)"
+                   Font Name: DB Heavent
+                   Font Size: 177800
+                   Bold: None
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Background 2
+                   Brightness: -0.75
+                   Language ID: THAI (1054)
+   ================================================================================
+
+SHAPE 9: 'TextBox 11' (Text Box)
+   Position: (6.394", 4.671")
+   Size: 1.11" x 0.28" 
+   Area: 0.31 sq inches
+   Z-Order: 8 (0 = back, higher = front)
+   Rotation: 0.0°
+   Fill Type: FillFormat
+   Fill Color: Not accessible (TypeError)
+   Line Color: ColorFormat
+   Line Width: 0
+   Text Content: "ที่มา:กรมทรัพยากรน้ำ"
+       TEXT FRAME ANALYSIS:
+           Auto Size: SHAPE_TO_FIT_TEXT (1)
+           Margins: Left=91440, Right=91440, Top=45720, Bottom=45720
+           Vertical Anchor: None
+           Word Wrap: False
+           Paragraphs: 1
+           PARAGRAPH 1:
+               Alignment: Right
+               Space After: None
+               Space Before: None
+               Line Spacing: None
+               Level: 0
+               Runs: 3
+               RUN 1: "ที่มา"
+                   Font Name: DB Heavent Thin
+                   Font Size: 133350
+                   Bold: True
+                   Italic: True
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Language ID: THAI (1054)
+               RUN 2: ":"
+                   Font Name: DB Heavent Thin
+                   Font Size: 133350
+                   Bold: True
+                   Italic: True
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Language ID: ENGLISH_US (1033)
+               RUN 3: "กรมทรัพยากรน้ำ"
+                   Font Name: DB Heavent Thin
+                   Font Size: 133350
+                   Bold: None
+                   Italic: True
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Language ID: THAI (1054)
+   ================================================================================
+
+SHAPE 10: 'Picture 33' (Picture)
+   Position: (0.161", 1.378")
+   Size: 2.39" x 3.39" 
+   Area: 8.11 sq inches
+   Z-Order: 9 (0 = back, higher = front)
+   Rotation: 0.0°
+   Line Color: ColorFormat
+   Line Width: 0
+       PICTURE ANALYSIS:
+           Image Type: Image
+           Image Size: (2068, 2924)
+           Image Format: image/png
+           Filename: image.png
+           Crop - Left: 0.0, Right: 0.0, Top: 0.0, Bottom: 0.0
+   ================================================================================
+
+SHAPE 11: 'TextBox 13' (Text Box)
+   Position: (7.253", 0.725")
+   Size: 3.04" x 0.64" 
+   Area: 1.94 sq inches
+   Z-Order: 10 (0 = back, higher = front)
+   Rotation: 0.0°
+   Fill Type: FillFormat
+   Fill Color: Not accessible (TypeError)
+   Line Color: ColorFormat
+   Line Width: 0
+   Text Content: "พื้นที่เสี่ยงเกิดน้ำท่วมฉับพลัน (2562)"
+       TEXT FRAME ANALYSIS:
+           Auto Size: SHAPE_TO_FIT_TEXT (1)
+           Margins: Left=91440, Right=91440, Top=45720, Bottom=45720
+           Vertical Anchor: TOP (1)
+           Word Wrap: True
+           Paragraphs: 1
+           PARAGRAPH 1:
+               Alignment: Center
+               Space After: None
+               Space Before: None
+               Line Spacing: None
+               Level: 0
+               Runs: 3
+               RUN 1: "พื้นที่เสี่ยงเกิดน้ำท่วมฉับพลัน"
+                   Font Name: DB Heavent
+                   Font Size: 228600
+                   Bold: True
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Background 2
+                   Brightness: -0.75
+                   Language ID: THAI (1054)
+               RUN 2: " "
+                   Font Name: DB Heavent
+                   Font Size: 190500
+                   Bold: True
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Background 2
+                   Brightness: -0.75
+                   Language ID: THAI (1054)
+               RUN 3: "(2562)"
+                   Font Name: DB Heavent
+                   Font Size: 177800
+                   Bold: None
+                   Italic: None
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Theme Color: Background 2
+                   Brightness: -0.75
+                   Language ID: THAI (1054)
+   ================================================================================
+
+SHAPE 12: 'TextBox 14' (Text Box)
+   Position: (8.249", 4.672")
+   Size: 1.61" x 0.28" 
+   Area: 0.45 sq inches
+   Z-Order: 11 (0 = back, higher = front)
+   Rotation: 0.0°
+   Fill Type: FillFormat
+   Fill Color: Not accessible (TypeError)
+   Line Color: ColorFormat
+   Line Width: 0
+   Text Content: "ที่มา: กรมทรัพยากรธรณี และ สสน."
+       TEXT FRAME ANALYSIS:
+           Auto Size: SHAPE_TO_FIT_TEXT (1)
+           Margins: Left=91440, Right=91440, Top=45720, Bottom=45720
+           Vertical Anchor: None
+           Word Wrap: False
+           Paragraphs: 1
+           PARAGRAPH 1:
+               Alignment: Right
+               Space After: None
+               Space Before: None
+               Line Spacing: None
+               Level: 0
+               Runs: 4
+               RUN 1: "ที่มา"
+                   Font Name: DB Heavent Thin
+                   Font Size: 133350
+                   Bold: True
+                   Italic: True
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Language ID: THAI (1054)
+               RUN 2: ":"
+                   Font Name: DB Heavent Thin
+                   Font Size: 133350
+                   Bold: True
+                   Italic: True
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Language ID: ENGLISH_US (1033)
+               RUN 3: " "
+                   Font Name: DB Heavent Thin
+                   Font Size: 133350
+                   Bold: True
+                   Italic: True
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Language ID: THAI (1054)
+               RUN 4: "กรมทรัพยากรธรณี และ สสน."
+                   Font Name: DB Heavent Thin
+                   Font Size: 133350
+                   Bold: None
+                   Italic: True
+                   Underline: None
+                   Strike: Not available
+                   Double Strike: Not available
+                   Subscript: Not available
+                   Superscript: Not available
+                   Small Caps: Not available
+                   All Caps: Not available
+                   Color Type: ColorFormat
+                   Language ID: THAI (1054)
+   ================================================================================
+
+SHAPE 13: 'Group 6' (Group)
+   Position: (7.470", 1.347")
+   Size: 2.39" x 3.39" 
+   Area: 8.11 sq inches
+   Z-Order: 12 (0 = back, higher = front)
+   Rotation: 0.0°
+       GROUP ANALYSIS (Depth 0):
+           Child Shapes: 2
+           CHILD 1: Picture
+               Position: (7.470", 1.347")
+               Size: 2.39" x 3.39" 
+           CHILD 2: Picture
+               Position: (7.824", 4.555")
+               Size: 0.12" x 0.12" 
+   ================================================================================
+
+SHAPE TYPE SUMMARY:
+   Auto Shape: 1
+   Group: 1
+   Picture: 3
+   Text Box: 8
+
+TEXT SUMMARY:
+   Text shapes: 9
+   1. "ข้อมูลแผนที่เสี่ยงจากหน่วยงานต่างๆ"
+   2. "ที่มา:สทอภ."
+   3. "พื้นที่น้ำท่วมซ้ำซากเชิงพื้นที่(2549 - 2562)"
+   4. "ที่มา:กรมป้องกันและบรรเทาสาธารณภัย"
+   5. "พื้นที่น้ำท่วมซ้ำซากรายตำบล(2558-2567)"
+   6. "พื้นที่เตือนภัยอพยพ
+(2550-2566)"
+   7. "ที่มา:กรมทรัพยากรน้ำ"
+   8. "พื้นที่เสี่ยงเกิดน้ำท่วมฉับพลัน (2562)"
+   9. "ที่มา: กรมทรัพยากรธรณี และ สสน."
+
+IMAGE SUMMARY:
+   Image shapes: 3
+   1. Size: 2.39" x 3.39" at (2.59", 1.35)
+   2. Size: 2.39" x 3.39" at (5.00", 1.35)
+   3. Size: 2.39" x 3.39" at (0.16", 1.38)
+
+GROUP SUMMARY:
+   Group shapes: 1
+   1. Size: 2.39" x 3.39" at (7.47", 1.35") - 2 children
+
+TABLE SUMMARY:
+   Table shapes: 0
+
+CHART SUMMARY:
+   Chart shapes: 0
+
+SUCCESS: Comprehensive inspection of all 8 slides completed.
