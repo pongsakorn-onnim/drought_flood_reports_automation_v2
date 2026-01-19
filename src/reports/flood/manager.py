@@ -3,7 +3,13 @@ from pathlib import Path
 
 from ...core.ppt_engine import PptEngine
 from ...core.data_loader import DataLoader
-from .tasks import (update_rain_forecast_part1, update_rain_forecast_part2, update_risk_forecast, update_cover, update_footer)
+from .tasks import (
+    update_footer,
+    update_cover,
+    update_rain_forecast_part1, 
+    update_rain_forecast_part2, 
+    update_risk_forecast, 
+    )
 
 logger = logging.getLogger(__name__)
 

@@ -12,7 +12,7 @@ def update_footer(engine: PptEngine, config: dict, year: int, month: int) -> Non
     months = get_months_for_leads(year, month, [0, 1, 2, 3, 4, 5])
     month_range = format_month_range(months)
 
-    footer_text = f"‹#› | การวิเคราะห์เพื่อกำหนดพื้นที่เสี่ยงอุทกภัยเดือน{month_range}"
+    footer_text = f" | การวิเคราะห์เพื่อกำหนดพื้นที่เสี่ยงอุทกภัยเดือน{month_range}"
     updated = engine.set_text_on_layouts("Txt_Footer", footer_text, preserve_format=True)
 
     

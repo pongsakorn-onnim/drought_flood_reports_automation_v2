@@ -12,7 +12,6 @@ flood_report:
     # -------------------------
     cover:
       slide_key: "flood_cover"
-      title_shape: "Txt_Title"
       report_period_shape: "Txt_Report_Period"
       issue_date_shape: "Txt_Issue_Date"
 

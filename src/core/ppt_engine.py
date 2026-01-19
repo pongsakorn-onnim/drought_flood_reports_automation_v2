@@ -123,13 +123,29 @@ class PptEngine:
             tf.text = text
             return
 
-        # preserve-format: update last run if exists, else fallback to tf.text
-        if tf.paragraphs and tf.paragraphs[0].runs:
-            p = tf.paragraphs[0]
-            run = p.runs[-1]
-            run.text = text
-        else:
+        # Ensure at least one paragraph
+        if len(tf.paragraphs) == 0:
             tf.text = text
+            return
+
+        p0 = tf.paragraphs[0]
+
+        # Ensure at least one run
+        if len(p0.runs) == 0:
+            p0.text = text
+            return
+
+        # Put full text into first run (keep its formatting)
+        p0.runs[0].text = text
+
+        # Clear remaining runs in first paragraph (prevents append)
+        for r in p0.runs[1:]:
+            r.text = ""
+
+        # Clear other paragraphs (if any)
+        for p in tf.paragraphs[1:]:
+            for r in p.runs:
+                r.text = ""
 
 
     # ------------------------------------------------------------------
