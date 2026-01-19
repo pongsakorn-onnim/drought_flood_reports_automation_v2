@@ -65,3 +65,68 @@ flood_report:
     base_url: "https://tiservice.hii.or.th/hds/data/rain_map/flood_drought_map/flood_map"
     rain_pattern: "{base_url}/{yyyymm}/{yyyymm}_step1_m{m}.png"
     risk_pattern: "{base_url}/{yyyymm}/{yyyymm}_step5_m{m}.png"
+
+
+drought_report:
+  template_path: "templates/drought_template_v2.pptx"
+
+  # --- Pages Configuration ---
+  pages:
+
+    # -------------------------
+    # หน้า 1: หน้าปก
+    # -------------------------
+    cover:
+      slide_key: "drought_cover"
+      report_period_shape: "Txt_Report_Period"
+      issue_date_shape: "Txt_Issue_Date"
+
+    # -------------------------
+    # หน้า 3: ฝนคาดการณ์ M1–M3 (lead 0–2)
+    # -------------------------
+    rain_forecast_part1:
+      slide_key: "drought_rain_fcst_lead0_lead2"
+      title_shape: "Txt_Title"
+      labels:
+        lead0: "Lbl_Month_Lead0"
+        lead1: "Lbl_Month_Lead1"
+        lead2: "Lbl_Month_Lead2"
+      images:
+        lead0: "Img_DroughtRainFcst_Lead0"
+        lead1: "Img_DroughtRainFcst_Lead1"
+        lead2: "Img_DroughtRainFcst_Lead2"
+
+    # -------------------------
+    # หน้า 4: ฝนคาดการณ์ M4–M6 (lead 3–5)
+    # -------------------------
+    rain_forecast_part2:
+      slide_key: "drought_rain_fcst_lead3_lead5"
+      title_shape: "Txt_Title"
+      labels:
+        lead3: "Lbl_Month_Lead3"
+        lead4: "Lbl_Month_Lead4"
+        lead5: "Lbl_Month_Lead5"
+      images:
+        lead3: "Img_DroughtRainFcst_Lead3"
+        lead4: "Img_DroughtRainFcst_Lead4"
+        lead5: "Img_DroughtRainFcst_Lead5"
+
+    # -------------------------
+    # หน้า 5: แผนที่เสี่ยงน้ำท่วม (M1–M6)
+    # -------------------------
+    risk_forecast:
+      slide_key: "drought_risk_fcst_lead0_lead5"
+      title_shape: "Txt_Title"
+      images:
+        lead0: "Img_DroughtRiskFcst_Lead0"
+        lead1: "Img_DroughtRiskFcst_Lead1"
+        lead2: "Img_DroughtRiskFcst_Lead2"
+        lead3: "Img_DroughtRiskFcst_Lead3"
+        lead4: "Img_DroughtRiskFcst_Lead4"
+        lead5: "Img_DroughtRiskFcst_Lead5"
+
+  # --- URL Patterns ---
+  data_sources:
+    base_url: "https://tiservice.hii.or.th/hds/data/rain_map/flood_drought_map/drought_map"
+    rain_pattern: "{base_url}/{yyyymm}/{yyyymm}_drought_m{m}.png"
+    risk_pattern: "{base_url}/{yyyymm}/{yyyymm}_omdrought_m{m}.png"
