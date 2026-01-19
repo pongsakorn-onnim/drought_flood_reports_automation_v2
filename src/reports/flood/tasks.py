@@ -1,3 +1,4 @@
+import logging
 from pathlib import Path
 
 from ...core.ppt_engine import PptEngine
@@ -5,6 +6,7 @@ from ...core.data_loader import DataLoader
 from ...core.image_handler import ImageHandler
 from ...core.text_handler import get_months_for_leads, format_month_range
     
+logger = logging.getLogger(__name__)
 
 def update_footer(engine: PptEngine, config: dict, year: int, month: int) -> None:
     months = get_months_for_leads(year, month, [0, 1, 2, 3, 4, 5])
@@ -12,8 +14,6 @@ def update_footer(engine: PptEngine, config: dict, year: int, month: int) -> Non
 
     footer_text = f"‹#› | การวิเคราะห์เพื่อกำหนดพื้นที่เสี่ยงอุทกภัยเดือน{month_range}"
     updated = engine.set_text_on_layouts("Txt_Footer", footer_text, preserve_format=True)
-
-    print(f"[INFO] Updated footer on {updated} layout(s).")
 
     
 def update_cover(engine: PptEngine, config: dict, year: int, month: int):

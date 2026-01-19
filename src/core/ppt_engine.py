@@ -54,7 +54,6 @@ class PptEngine:
     def save(self, output_path: Path | str) -> None:
         output_path = Path(output_path)
         output_path.parent.mkdir(parents=True, exist_ok=True)
-        logger.info(f"Saving presentation to: {output_path}")
         self.prs.save(output_path)
 
     # ------------------------------------------------------------------
