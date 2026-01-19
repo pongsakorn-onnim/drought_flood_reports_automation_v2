@@ -3,18 +3,24 @@ from pathlib import Path
 import argparse
 import logging
 
+from .reports.drought.manager import generate_drought_report
 from .reports.flood.manager import generate_flood_report
 from .core.output_manager import OutputManager, OutputSpec
 from .core.logging_config import setup_logging
 
 logger = logging.getLogger(__name__)
 
-
 def main():
     parser = argparse.ArgumentParser(
         description="HII Drought/Flood Report Generator"
     )
-
+    
+    parser.add_argument(
+        "--report",
+        choices=["drought", "flood"],
+        required=True,
+        help="Which report to generate",
+    )
     parser.add_argument("--year", type=int, required=True)
     parser.add_argument("--month", type=int, required=True)
     parser.add_argument(
@@ -48,12 +54,14 @@ def main():
         quiet=args.quiet,
     )
 
+    report_type = args.report
+    
     logger.info("Starting report generator")
-    logger.info("Args: year=%s month=%s dev=%s", args.year, args.month, args.dev)
+    logger.info("Args: report=%s year=%s month=%s dev=%s", report_type, args.year, args.month, args.dev)
 
     out_mgr = OutputManager(base_output_dir="output")
     spec = OutputSpec(
-        report_type="flood",
+        report_type=args.report,
         year=args.year,
         month=args.month,
         mode="dev" if args.dev else "prod",
@@ -61,8 +69,17 @@ def main():
     output_path = out_mgr.build_output_path(spec)
 
     logger.info("Output path: %s", output_path)
+    
+    REPORT_GENERATORS = {
+        "flood": generate_flood_report,
+        "drought": generate_drought_report,
+    }
+    
+    generator = REPORT_GENERATORS[report_type]
+    
+    logger.info("Generating %s report", report_type)
 
-    generate_flood_report(
+    generator(
         year=args.year,
         month=args.month,
         output_path=output_path,
