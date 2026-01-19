@@ -111,7 +111,7 @@ drought_report:
         lead5: "Img_DroughtRainFcst_Lead5"
 
     # -------------------------
-    # หน้า 5: แผนที่เสี่ยงน้ำท่วม (M1–M6)
+    # หน้า 5: แผนที่เสี่ยงแล้ง (M1–M6)
     # -------------------------
     risk_forecast:
       slide_key: "drought_risk_fcst_lead0_lead5"
