@@ -43,3 +43,7 @@ inspection_pages/
 .cache/
 tmp/
 temp/
+
+build/
+dist/
+*.spec
