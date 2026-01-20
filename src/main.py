@@ -11,6 +11,7 @@ This script orchestrates the entire reporting process, including:
 """
 
 import os
+import sys
 import argparse
 import logging
 import subprocess
@@ -74,6 +75,13 @@ def interactive_mode() -> tuple[str, int, int]:
     Launches an interactive CLI session using 'Rich'.
     Returns the user's selected report type, year, and month.
     """
+    
+    # ล้างปุ่มที่ User อาจเผลอกดค้างไว้ตอนรอรายงานเสร็จ
+    if os.name == 'nt': 
+        import msvcrt
+        while msvcrt.kbhit():
+            msvcrt.getch()   
+    
     console = Console()
     
     # 1. Display Header
@@ -83,17 +91,22 @@ def interactive_mode() -> tuple[str, int, int]:
         subtitle="v2.0"
     ))
 
-    # 2. Ask Report Type
-    # Highlight choices [1] and [2] in cyan
-    console.print("Which report would you like to generate?")
-    console.print(" [[bold cyan]1[/]]: Drought Report")
-    console.print(" [[bold cyan]2[/]]: Flood Report")
+# Display menu options
+    console.print("\nSelect an option:")
+    console.print(" [bold cyan]1[/]: Drought Report")
+    console.print(" [bold cyan]2[/]: Flood Report")
+    console.print(" [bold red]0[/]: Exit Program")
     
+    # Prompt for user choice (Removed default value for UX clarity)
     choice = Prompt.ask(
-        "Enter your choice ([bold cyan]1 or 2[/])", 
-        choices=["1", "2"], 
+        "Enter choice", 
+        choices=["1", "2", "0"], 
         show_choices=False
     )
+
+    if choice == "0":
+        return None, None, None 
+
     report_type = "drought" if choice == "1" else "flood"
 
     # 3. Ask Year
@@ -117,7 +130,7 @@ def interactive_mode() -> tuple[str, int, int]:
 
 
 def main():
-    # --- 1. Argument Parsing ---
+    # --- Argument Parsing ---
     parser = argparse.ArgumentParser(description="HII Drought/Flood Report Generator")
     parser.add_argument("--report", choices=["drought", "flood"], help="Report type to generate.")
     parser.add_argument("--year", type=int, help="Target year (e.g., 2026).")
@@ -132,95 +145,118 @@ def main():
 
     args = parser.parse_args()
 
-    # --- 2. Initial Logging Setup (Console Only) ---
-    # This allows us to log errors even before the file logging is configured.
+    # Check for automation mode (CLI arguments provided)
+    is_cli_automation = (args.report and args.year and args.month)
+
+    # Initial logging setup (Console only)
     setup_logging(
         level=args.log_level,
         quiet=args.quiet,
         console_style=args.log_style
     )
 
-    # --- 3. Determine Parameters (Interactive vs Arguments) ---
-    if not args.report or not args.year or not args.month:
-        if RICH_AVAILABLE:
-            report_type, year, month = interactive_mode()
-        else:
-            # Fallback for environments without Rich
-            print("Rich library not found. Using standard input.")
-            report_type = input("Report (drought/flood): ").strip()
-            year = int(input("Year: "))
-            month = int(input("Month: "))
-    else:
-        report_type = args.report
-        year = args.year
-        month = args.month
+    # --- Main Application Loop ---
+    while True:
+        try:
+            # Clear screen in interactive mode
+            if RICH_AVAILABLE and not is_cli_automation:
+                print("\n" + "="*50 + "\n")
 
-    # --- 4. File Logging & Retention Policy ---
-    if not args.log_file:
-        # Generate standard log filename: logs/run_<type>_<date>_<time>.log
-        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        log_dir = Path("logs")
-        log_dir.mkdir(exist_ok=True)
-        
-        # Cleanup old logs before creating a new one
-        cleanup_old_logs(log_dir, pattern="run_*.log", keep=5)
+            # --- Determine Parameters ---
+            if is_cli_automation:
+                report_type = args.report
+                year = args.year
+                month = args.month
+            else:
+                # Interactive Mode
+                if RICH_AVAILABLE:
+                    report_type, year, month = interactive_mode()
+                    
+                    # Exit condition
+                    if report_type is None:
+                        sys.exit(0)
+                else:
+                    # Standard input fallback
+                    print("Rich library not found. Using standard input.")
+                    report_type = input("Report (drought/flood): ").strip()
+                    year = int(input("Year: "))
+                    month = int(input("Month: "))
 
-        log_filename = f"run_{report_type}_{year}{month:02d}_{timestamp}.log"
-        log_file_path = log_dir / log_filename
-    else:
-        log_file_path = Path(args.log_file)
+            # --- Reset Logging Handlers ---
+            # Remove existing handlers to prevent duplication across iterations
+            root_logger = logging.getLogger()
+            if root_logger.handlers:
+                for h in root_logger.handlers[:]:
+                    root_logger.removeHandler(h)
 
-    # Re-configure logging to include the File Handler
-    setup_logging(
-        level=args.log_level,
-        log_file=log_file_path,
-        quiet=args.quiet,
-        console_style=args.log_style,
-        file_level="DEBUG"  # Always keep detailed logs in file
-    )
+            # Generate log filename based on current report task
+            if not args.log_file:
+                timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+                log_dir = Path("logs")
+                log_dir.mkdir(exist_ok=True)
+                cleanup_old_logs(log_dir, pattern="run_*.log", keep=5)
 
-    # Print log location for user reference
-    if RICH_AVAILABLE and not args.quiet:
-        Console().print(f"\n[dim]Log file: {log_file_path}[/dim]\n")
+                log_filename = f"run_{report_type}_{year}{month:02d}_{timestamp}.log"
+                log_file_path = log_dir / log_filename
+            else:
+                log_file_path = Path(args.log_file)
 
-    # --- 5. Report Generation Execution ---
-    out_mgr = OutputManager(base_output_dir="output")
-    spec = OutputSpec(
-        report_type=report_type,
-        year=year,
-        month=month,
-        mode="dev" if args.dev else "prod",
-    )
-    output_path = out_mgr.build_output_path(spec)
+            # Re-configure logging with file handler
+            setup_logging(
+                level=args.log_level,
+                log_file=log_file_path,
+                quiet=args.quiet,
+                console_style=args.log_style,
+                file_level="DEBUG"
+            )
 
-    REPORT_GENERATORS = {
-        "flood": generate_flood_report,
-        "drought": generate_drought_report,
-    }
-    
-    try:
-        generator = REPORT_GENERATORS[report_type]
-        generator(
-            year=year,
-            month=month,
-            output_path=output_path,
-        )
+            if RICH_AVAILABLE and not args.quiet:
+                Console().print(f"\n[dim]Log file: {log_file_path}[/dim]\n")
 
-        # --- 6. Post-Processing: Open Output Folder ---
-        logger.info("Opening output folder...")
-        if os.name == 'nt':  # Windows only
-            # Open folder and highlight the generated file
-            subprocess.Popen(f'explorer /select,"{output_path}"')
-        else:
-            # Fallback for macOS/Linux (open folder only)
-            subprocess.Popen(['open' if os.name == 'posix' else 'xdg-open', str(output_path.parent)])
+            # --- Execute Report Generation ---
+            out_mgr = OutputManager(base_output_dir="output")
+            spec = OutputSpec(
+                report_type=report_type,
+                year=year,
+                month=month,
+                mode="dev" if args.dev else "prod",
+            )
+            output_path = out_mgr.build_output_path(spec)
 
-    except Exception as e:
-        logger.critical(f"Report generation failed: {e}", exc_info=True)
-        # In interactive mode, pause so user can see the error
-        if not args.quiet and RICH_AVAILABLE:
-            input("\nPress Enter to exit...")
-        exit(1)
+            REPORT_GENERATORS = {
+                "flood": generate_flood_report,
+                "drought": generate_drought_report,
+            }
+            
+            generator = REPORT_GENERATORS[report_type]
+            generator(
+                year=year,
+                month=month,
+                output_path=output_path,
+            )
+
+            # --- Post-Processing ---
+            logger.info("Opening output folder...")
+            if os.name == 'nt':
+                subprocess.Popen(f'explorer /select,"{output_path}"')
+            else:
+                subprocess.Popen(['open' if os.name == 'posix' else 'xdg-open', str(output_path.parent)])
+
+        except Exception as e:
+            logger.critical(f"Report generation failed: {e}", exc_info=True)
+            
+            # Pause on error in interactive mode
+            if not args.quiet and RICH_AVAILABLE:
+                input("\nAn error occurred. Press Enter to return to menu...")
+            
+            # Exit immediately in automation mode
+            if is_cli_automation:
+                exit(1)
+
+        # Break loop if running in automation mode
+        if is_cli_automation:
+            break
+
 
 if __name__ == "__main__":
     main()
