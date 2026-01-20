@@ -24,28 +24,32 @@ class ImageHandler:
         self.session.mount('http://', adapter)
         self.session.mount('https://', adapter)
         
-        # Add User-Agent to mimic a browser
         self.session.headers.update({
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
         })
 
     def download_image(self, url: str) -> BytesIO:
         """
-        Downloads an image and returns it as a BytesIO object.
-        Returns None if download fails after retries.
+        Downloads an image. Returns None if fails (logs warning).
         """
         try:
-            # timeout=10 seconds
             response = self.session.get(url, timeout=10)
             response.raise_for_status()
             return BytesIO(response.content)
+            
+        except requests.exceptions.HTTPError as e:
+            # [Clean Log] บอกแค่ URL และ Status Code พอ
+            status = e.response.status_code
+            logger.warning(f"Image not found: {url} (Status: {status})")
+            return None
+            
         except Exception as e:
-            logger.warning(f"Failed to download {url}: {e}")
+            logger.warning(f"Download failed: {url} ({e})")
             return None
 
     def create_placeholder(self, text: str, width: int = 655, height: int = 1200) -> BytesIO:
         """
-        Creates a placeholder image in memory (White background + Text).
+        Creates a placeholder image in memory.
         """
         try:
             img = Image.new('RGB', (width, height), color='white')
@@ -54,36 +58,37 @@ class ImageHandler:
             # Font handling
             font_size = min(width, height) // 20
             try:
-                # Try loading Arial (common on Windows)
                 font = ImageFont.truetype("arial.ttf", font_size)
             except IOError:
                 font = ImageFont.load_default()
 
-            # Calculate text size (Compatibility for old/new Pillow)
+            # Text handling
             try:
-                # Modern Pillow
                 bbox = draw.textbbox((0, 0), text, font=font)
                 text_width = bbox[2] - bbox[0]
                 text_height = bbox[3] - bbox[1]
             except AttributeError:
-                # Older Pillow
                 text_width, text_height = draw.textsize(text, font=font)
 
             x = (width - text_width) // 2
             y = (height - text_height) // 2
             
             draw.text((x, y), text, fill='gray', font=font)
-            # Add a border
             draw.rectangle([0, 0, width-1, height-1], outline='lightgray', width=2)
             
             buf = BytesIO()
             img.save(buf, format='PNG')
             buf.seek(0)
+            
+            # [Clean Log] บอกแค่ว่าสร้าง Placeholder เสร็จแล้ว (ไม่ต้องบอก path/size)
+            # .replace เพื่อให้ log อยู่บรรทัดเดียวสวยๆ
+            clean_text = text.replace('\n', ' ').replace('\r', '')
+            logger.info(f"-> Generated placeholder instead. (Text: '{clean_text}')")
+            
             return buf
             
         except Exception as e:
             logger.error(f"Error creating placeholder: {e}")
-            # Fallback: Create a tiny 1x1 white pixel if everything fails
             fallback = Image.new('RGB', (1, 1), color='white')
             buf = BytesIO()
             fallback.save(buf, format='PNG')
@@ -92,27 +97,13 @@ class ImageHandler:
 
     def get_image(self, url: str, placeholder_text: str = "N/A") -> BytesIO:
         """
-        High-level function: Tries to download. If fails, returns placeholder.
-        Always returns a valid BytesIO image.
+        Tries to download. If fails, returns placeholder immediately.
         """
         img_stream = self.download_image(url)
         if img_stream:
             return img_stream
         
-        print(f"[INFO] Generating placeholder for: {url}")
+        # [Clean Log] ลบ log "Attempting..." ทิ้งไปเลย เพราะข้างบนมี Warning แล้ว
+        # และข้างล่างก็จะมี Info บอกว่าสร้าง placeholder
+        
         return self.create_placeholder(f"Image Not Found:\n{placeholder_text}")
-
-# --- Test Block ---
-if __name__ == "__main__":
-    handler = ImageHandler()
-    
-    # 1. Test Download (Google Logo)
-    test_url = "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
-    print(f"Testing download from: {test_url}")
-    img_data = handler.get_image(test_url)
-    print(f"Result size: {img_data.getbuffer().nbytes} bytes")
-    
-    # 2. Test Placeholder (Invalid URL)
-    print("Testing placeholder generation...")
-    fail_data = handler.get_image("https://invalid-url.com/nothing.png", "Test Placeholder")
-    print(f"Placeholder size: {fail_data.getbuffer().nbytes} bytes")
