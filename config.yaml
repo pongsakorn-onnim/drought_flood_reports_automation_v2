@@ -127,5 +127,5 @@ drought_report:
   # --- URL Patterns ---
   data_sources:
     base_url: "https://tiservice.hii.or.th/hds/data/rain_map/flood_drought_map/drought_map"
-    rain_pattern: "{base_url}/{yyyymm}/{yyyymm}_drought_m{m}.png"
-    risk_pattern: "{base_url}/{yyyymm}/{yyyymm}_omdrought_m{m}.png"
+    rain_pattern: "{base_url}/{yyyymm}/{yyyymm}_omdrought_m{m}.png"
+    risk_pattern: "{base_url}/{yyyymm}/{yyyymm}_drought_m{m}.png"

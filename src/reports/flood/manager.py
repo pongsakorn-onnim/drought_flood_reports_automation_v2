@@ -44,7 +44,7 @@ def generate_flood_report(
     # 1. Load Resources
     loader = DataLoader(config_path)
     config = loader.get_config()
-    template_path = config["flood_report"]["template_path"]
+    template_path = Path(config["flood_report"]["template_path"])
     
     logger.info(f"Template: {template_path}")
 

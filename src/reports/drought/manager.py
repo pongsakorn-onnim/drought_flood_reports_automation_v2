@@ -45,7 +45,7 @@ def generate_drought_report(
     # 1. Load Resources
     loader = DataLoader(config_path)
     config = loader.get_config()
-    template_path = config["drought_report"]["template_path"]
+    template_path = Path(config["drought_report"]["template_path"])
     
     logger.info(f"Template: {template_path}")
 
