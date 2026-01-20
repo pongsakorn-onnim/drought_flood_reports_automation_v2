@@ -44,6 +44,14 @@ inspection_pages/
 tmp/
 temp/
 
+# --- PyInstaller ---
 build/
 dist/
 *.spec
+
+*.zip
+*.7z
+*.exe
+
+/project_tree.txt
+/tools/export_project_tree.py
