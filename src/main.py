@@ -147,21 +147,19 @@ def main():
 
     # Check for automation mode (CLI arguments provided)
     is_cli_automation = (args.report and args.year and args.month)
-
+    
     # Initial logging setup (Console only)
     setup_logging(
         level=args.log_level,
         quiet=args.quiet,
         console_style=args.log_style
     )
+    
+    exit_reason = "NORMAL" 
 
     # --- Main Application Loop ---
     while True:
         try:
-            # Clear screen in interactive mode
-            if RICH_AVAILABLE and not is_cli_automation:
-                print("\n" + "="*50 + "\n")
-
             # --- Determine Parameters ---
             if is_cli_automation:
                 report_type = args.report
@@ -174,7 +172,8 @@ def main():
                     
                     # Exit condition
                     if report_type is None:
-                        sys.exit(0)
+                        exit_reason = "USER_EXIT"
+                        break
                 else:
                     # Standard input fallback
                     print("Rich library not found. Using standard input.")
@@ -256,7 +255,10 @@ def main():
         # Break loop if running in automation mode
         if is_cli_automation:
             break
+        
+    return exit_reason
 
 
 if __name__ == "__main__":
-    main()
+    exit_reason = main()
+    raise SystemExit(0)

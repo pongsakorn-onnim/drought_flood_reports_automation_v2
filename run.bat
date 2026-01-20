@@ -11,15 +11,8 @@ if not exist "%~dp0.venv\Scripts\python.exe" (
     exit /b 1
 )
 
-rem --- Run Python ---
+rem --- Run Python (application controls UX) ---
 "%~dp0.venv\Scripts\python.exe" -m src.main
 
-rem --- Check Error Level ---
-rem เช็คเฉพาะถ้ามี Error (Level 1) ถึงจะ Pause
-if errorlevel 1 (
-    echo.
-    echo [ERROR] Program exited with errors.
-    pause
-)
-
-rem ถ้าไม่มี Error (Level 0) สคริปต์จะจบตรงนี้และปิดหน้าต่างทันที
+rem --- Exit immediately (pure launcher) ---
+exit /b %ERRORLEVEL%

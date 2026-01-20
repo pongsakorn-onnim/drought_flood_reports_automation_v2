@@ -1,56 +1,83 @@
 @echo off
 chcp 65001 >nul
+setlocal EnableExtensions
 cd /d "%~dp0"
 
 echo =======================================================
-echo  [BUILD] Packing Drought & Flood Report Generator v2
+echo  [BUILD] Packing Drought Flood Report Generator
 echo =======================================================
 echo.
 
-rem 1. Activate Environment
-if not exist .venv\Scripts\activate.bat (
+rem ---------- CONFIG ----------
+set "EXE_NAME=report_generator"
+set "DIST_ROOT=dist"
+set "OUT_FOLDER_NAME=drought_flood_report_generator"
+set "OUT_DIR=%DIST_ROOT%\%OUT_FOLDER_NAME%"
+
+rem Anaconda DLL source (optional patch)
+set "CONDA_BIN=C:\Users\cws12345\anaconda3\Library\bin"
+rem ----------------------------
+
+rem 1) Activate Environment
+if not exist ".venv\Scripts\activate.bat" (
     echo [ERROR] .venv not found! Please run setup.bat first.
     pause
-    exit /b
+    exit /b 1
 )
-call .venv\Scripts\activate
+call ".venv\Scripts\activate.bat"
 
+rem 2) Build EXE (onedir)
 echo [INFO] Building executable...
-rem ตั้งชื่อใหม่ตรงนี้ครับ
 pyinstaller --noconfirm --onedir --clean ^
- --name "Drought&Flood_report_generator_v2" ^
- run_app.py
+ --name "%EXE_NAME%" ^
+ --distpath "%DIST_ROOT%" ^
+ --workpath "build" ^
+ entry_point.py
 
+if errorlevel 1 (
+    echo.
+    echo [ERROR] PyInstaller build failed.
+    pause
+    exit /b 1
+)
+
+rem 3) Normalize output folder name:
+rem    PyInstaller creates: dist\%EXE_NAME%\
+rem    You want:           dist\drought_flood_report_generator\
+if exist "%OUT_DIR%" rmdir /s /q "%OUT_DIR%"
+if exist "%DIST_ROOT%\%EXE_NAME%" (
+    ren "%DIST_ROOT%\%EXE_NAME%" "%OUT_FOLDER_NAME%"
+) else (
+    echo [ERROR] Expected output folder not found: %DIST_ROOT%\%EXE_NAME%
+    pause
+    exit /b 1
+)
+
+rem 4) Patch Anaconda DLLs (optional but kept as your workflow)
 echo.
 echo [AUTO-FIX] Patching Anaconda DLLs...
-rem ---------------------------------------------------------
-rem ก๊อปปี้ DLL ไปใส่ในโฟลเดอร์ชื่อใหม่
-rem ---------------------------------------------------------
+if not exist "%CONDA_BIN%" (
+    echo [WARN] Anaconda bin not found: %CONDA_BIN%
+    echo [WARN] Skipping DLL patch.
+) else (
+    xcopy "%CONDA_BIN%\ffi*.dll"      "%OUT_DIR%\_internal\" /Y /I >nul
+    xcopy "%CONDA_BIN%\libcrypto*.dll" "%OUT_DIR%\_internal\" /Y /I >nul
+    xcopy "%CONDA_BIN%\libssl*.dll"    "%OUT_DIR%\_internal\" /Y /I >nul
+    echo - DLLs patched successfully.
+)
 
-rem 1. กวาดตระกูล ffi ทั้งหมด
-xcopy "C:\Users\cws12345\anaconda3\Library\bin\ffi*.dll" "dist\Drought&Flood_report_generator_v2\_internal\" /Y /I >nul
-
-rem 2. กวาดตระกูล SSL/Crypto
-xcopy "C:\Users\cws12345\anaconda3\Library\bin\libcrypto*.dll" "dist\Drought&Flood_report_generator_v2\_internal\" /Y /I >nul
-xcopy "C:\Users\cws12345\anaconda3\Library\bin\libssl*.dll" "dist\Drought&Flood_report_generator_v2\_internal\" /Y /I >nul
-
-echo - DLLs patched successfully.
-
+rem 5) Copy user resources
 echo.
 echo [INFO] Copying User Resources...
-rem ก๊อปปี้ Template/Config ไปที่โฟลเดอร์ชื่อใหม่
-xcopy "templates" "dist\Drought&Flood_report_generator_v2\templates\" /E /I /Y >nul
-echo f | xcopy "config.yaml" "dist\Drought&Flood_report_generator_v2\config.yaml" /Y >nul
+xcopy "templates" "%OUT_DIR%\templates\" /E /I /Y >nul
+echo f | xcopy "config.yaml" "%OUT_DIR%\config.yaml" /Y >nul
 
 echo.
 echo =======================================================
-echo  [SUCCESS] Build Finished! 🍱
+echo  [SUCCESS] Build Finished!
 echo =======================================================
 echo.
 echo Your app is ready in:
-echo   dist\Drought&Flood_report_generator_v2
-echo.
-echo [TEST] Run this file:
-echo dist\Drought&Flood_report_generator_v2\Drought&Flood_report_generator_v2.exe
+echo   %OUT_DIR%
 echo.
 pause
